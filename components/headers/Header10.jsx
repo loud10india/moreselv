@@ -21,23 +21,23 @@ export default function Header10({ links }) {
                 <span className='visually-hidden'>Menu</span>
             </div>
             {/* Main Menu */}
-            <div className='inner-nav desktop-nav'>
-                <ul className='clearlist scroll-nav local-scroll scrollspyLinks'>
-                    <Nav links={links} />
+            <div className='inner-nav desktop-nav' style={{ color: "#FECD8C" }}>
+                <ul className='clearlist scroll-nav local-scroll scrollspyLinks' style={{ color: "#FECD8C" }}>
+                    <Nav links={links} style={{ color: "#FECD8C" }} />
                 </ul>
                 <ul className='items-end clearlist local-scroll'>
                     {links[0].href.includes("/book-appointment") ? (
-                        <li>
+                        <li style={{ color: "#FECD8C" }}>
                             <Link href={links[links.length - 1].href} className='opacity-1 no-hover'>
-                                <span className='link-hover-anim' data-link-animate='y'>
+                                <span className='link-hover-anim' data-link-animate='y' style={{ color: "#FECD8C" }}>
                                     Book an Appointment
                                 </span>
                             </Link>
                         </li>
                     ) : (
-                        <li>
+                        <li style={{ color: "#FECD8C" }}>
                             <a href='/book-appointment' className='opacity-1 no-hover'>
-                                <span className='link-hover-anim' data-link-animate='y'>
+                                <span className='link-hover-anim' data-link-animate='y' style={{ color: "#FECD8C" }}>
                                     Book an Appointment
                                 </span>
                             </a>

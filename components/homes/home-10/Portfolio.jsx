@@ -9,7 +9,7 @@ export default function Portfolio() {
             <div className='row mb-90 mb-sm-50'>
                 <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                     <h2 className='section-caption-border'>Our Services</h2>
-                    <h3 className='section-title-strong mb-40'>
+                    <h3 className='section-title-strong mb-40' style={{ color: "#EBBA78" }}>
                         A Personalized <span className='font-alt'>Approach</span> to Wellness
                     </h3>
                     <p className='mb-0'>
@@ -57,7 +57,9 @@ export default function Portfolio() {
                                             <Image width={902} height={564} src={item.imgSrc} alt={item.imgAlt} />
                                         </div>
                                         <div className='portfolio-4-intro'>
-                                            <h4 className='portfolio-4-title'>{item.title}</h4>
+                                            <h4 className='portfolio-4-title' style={{ color: "#" }}>
+                                                {item.title}
+                                            </h4>
                                             {/* <div className='portfolio-4-descr'>{item.descr}</div> */}
                                         </div>
                                     </a>

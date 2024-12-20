@@ -6,7 +6,7 @@ export default function Hero1() {
         <div className='container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120'>
             {/* Home Section Content */}
             <div className='home-content text-center'>
-                <h1 className='hs-title-7 mb-40'>
+                <h1 className='hs-title-7 mb-40' style={{ color: "#FECD8C" }}>
                     <span className='wow charsAnimIn-1' data-splitting='chars'>
                         <AnimatedText text='Women’s' />{" "}
                         <span className='font-alt'>
@@ -42,9 +42,9 @@ export default function Hero1() {
             </div>
             {/* End Scroll Down */}
             {/* Status */}
-            <div className='hs-status uppercase wow fadeInUp' data-wow-offset={0}>
+            {/* <div className='hs-status uppercase wow fadeInUp' data-wow-offset={0}>
                 Based in Gurgaon
-            </div>
+            </div> */}
             {/* End Status */}
         </div>
     );

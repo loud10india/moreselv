@@ -43,7 +43,7 @@ export default function Home10MainDemoMultiPage() {
         <>
             <div className='theme-strong'>
                 <div className='page' id='top'>
-                    <nav className='main-nav dark transparent stick-fixed wow-menubar wch-unset'>
+                    <nav className='main-nav dark transparent stick-fixed wow-menubar wch-unset' style={{ color: "#FECD8C" }}>
                         <Header10 links={strongMultiPages} />
                     </nav>
                     <main id='main'>
@@ -71,7 +71,7 @@ export default function Home10MainDemoMultiPage() {
 
                         <Home10 />
                     </main>
-                    <footer className='footer-1 bg-dark-1 light-content'>
+                    <footer className='footer-1 bg-dark-1 light-content' style={{ color: "#FECD8C" }}>
                         <Footer9 />
                     </footer>
                 </div>

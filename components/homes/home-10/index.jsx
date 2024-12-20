@@ -44,94 +44,27 @@ export default function Home10({ onePage = false, dark = false }) {
                     <div className='row'>
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                             <h2 className='section-caption-border'>About Agency</h2>
-                            <h3 className='section-title-strong mb-90 mb-sm-50'>
+                            <h3 className='section-title-strong mb-90 mb-sm-50' style={{ color: "#EBBA78" }}>
                                 Hello, <span className='font-alt'>Lovely</span> La
                                 <span className='font-alt'>dy!</span>
                             </h3>
                         </div>
                     </div>
 
-                    <div className='row'>
-                        <div className='col-sm-4 mb-xs-50'>
-                            <div className='call-action-4-images'>
-                                <div className='call-action-4-image-1'>
-                                    <Image
-                                        width={500}
-                                        height={692}
-                                        src='/assets/images/demo-strong/section-image-1.jpg'
-                                        alt='Image description'
-                                        className='wow scaleOutIn'
-                                        data-wow-duration='1.2s'
-                                    />
-                                </div>
-                                <div className='call-action-4-image-2'>
-                                    <Image
-                                        width={500}
-                                        height={692}
-                                        src='/assets/images/demo-strong/section-image-2.jpg'
-                                        alt='Image description'
-                                        className='wow scaleOutIn'
-                                        data-wow-duration='1.2s'
-                                        data-wow-offset='0'
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10'>
+                    <div className='container'>
+                        <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                             <div className='wow linesAnimIn' data-splitting='lines'>
-                                <p className='mt-0 mb-40'>
+                                <p className='lead mt-0'>
                                     Welcome to <b>Mor-Selv</b>, your new sanctuary for wellness, located in the heart of Gurgaon at AVA Court, Malibu
                                     Towne. Exclusively for women, our boutique wellness center is thoughtfully designed to help you relax, rejuvenate,
                                     and rediscover yourself in a serene and supportive environment.
                                 </p>
-                                <p className='mb-10'>
+                                <p style={{ fontSize: "1.1em" }}>
                                     At <b>Mor-Selv</b>, we believe every woman deserves a space where she can escape the everyday, reconnect with
                                     herself, and embrace a journey of complete wellness. Whether it’s a calming treatment, a revitalizing ritual, or
                                     simply a moment of tranquility, we’re here to make it all about you.
                                 </p>
-                                <p>Your wellness journey begins here.</p>
-                            </div>
-
-                            {/* <div className="local-scroll wow fadeInUp" data-wow-offset="0">
-                {onePage ? (
-                  <>
-                    <a
-                      href="#team"
-                      className="btn btn-mod btn-white btn-large btn-round btn-hover-anim"
-                    >
-                      <span>
-                        Learn More
-                        <span className="visually-hidden">About Us</span>
-                      </span>
-                    </a>
-                  </>
-                ) : (
-                  <>
-                    <Link
-                      href={`/strong-about${dark ? "-dark" : ""}`}
-                      className="btn btn-mod btn-white btn-large btn-round btn-hover-anim"
-                    >
-                      <span>
-                        Learn More
-                        <span className="visually-hidden">About Us</span>
-                      </span>
-                    </Link>
-                  </>
-                )}
-              </div> */}
-                        </div>
-
-                        <div className='col-lg-2 offset-xl-1 d-none d-lg-block'>
-                            <div className='round overflow-hidden'>
-                                <Image
-                                    width={330}
-                                    height={894}
-                                    src='/assets/images/demo-strong/section-image-3.jpg'
-                                    alt='Image description'
-                                    className='wow scaleOutIn'
-                                    data-wow-duration='1.2s'
-                                />
+                                <p style={{ fontSize: "1.1em" }}>Your wellness journey begins here.</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +206,7 @@ export default function Home10({ onePage = false, dark = false }) {
                             </div>
                             {/* End Decorative Dots */}
                             <div>
-                                <h2 className='section-title mb-30'>
+                                <h2 className='section-title mb-30' style={{ color: "#FECD8C" }}>
                                     Responsive, <span className='font-alt'>flexible</span> and customizable.
                                 </h2>
                                 <p className='mb-50'>
@@ -301,9 +234,9 @@ export default function Home10({ onePage = false, dark = false }) {
                         <div className='split-image-left'>
                             <Image width={1100} height={930} src='/assets/images/demo-strong/split-image-2.jpg' alt='Image Description' />
                             {/* Circle Text */}
-                            <div className='position-absolute bottom-0 start-0 ps-4 pb-4 d-none d-sm-block'>
+                            {/* <div className='position-absolute bottom-0 start-0 ps-4 pb-4 d-none d-sm-block'>
                                 <Image src='/assets/images/demo-strong/circle-text.svg' width={138} height={138} alt='Image Description' />
-                            </div>
+                            </div> */}
                             {/* End Circle Text */}
                         </div>
                     </div>
@@ -313,7 +246,7 @@ export default function Home10({ onePage = false, dark = false }) {
                 <div className='container'>
                     <div className='row mb-90 mb-sm-50'>
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
-                            <h2 className='section-title-strong mb-40'>
+                            <h2 className='section-title-strong mb-40' style={{ color: "#EBBA78" }}>
                                 Clients <span className='font-alt'>Stories</span>
                             </h2>
                             <p className='mb-0'>
