@@ -11,30 +11,13 @@ export function init_classic_menu_resize() {
     }
 
     // Mobile menu style toggle
-    // if (window.innerWidth <= 1024) {
-    //     document.querySelector(".main-nav").classList.add("mobile-on");
-    //     if (!mobile_nav.classList.contains("active")) {
-    //         desktop_nav.style.display = "none";
-    //     }
-    // } else if (window.innerWidth > 1024) {
-    //     document.querySelector(".main-nav").classList.remove("mobile-on");
-    //     desktop_nav.style.display = "block";
-    // }
-    document.addEventListener("DOMContentLoaded", () => {
-        if (window.innerWidth <= 1024) {
-            const mainNav = document.querySelector(".main-nav");
-            if (mainNav) {
-                mainNav.classList.add("mobile-on");
-            }
-            if (!mobile_nav.classList.contains("active")) {
-                desktop_nav.style.display = "none";
-            }
-        } else if (window.innerWidth > 1024) {
-            const mainNav = document.querySelector(".main-nav");
-            if (mainNav) {
-                mainNav.classList.remove("mobile-on");
-            }
-            desktop_nav.style.display = "block";
+    if (window.innerWidth <= 1024) {
+        document.querySelector(".main-nav").classList.add("mobile-on");
+        if (!mobile_nav.classList.contains("active")) {
+            desktop_nav.style.display = "none";
         }
-    });
+    } else if (window.innerWidth > 1024) {
+        document.querySelector(".main-nav").classList.remove("mobile-on");
+        desktop_nav.style.display = "block";
+    }
 }
