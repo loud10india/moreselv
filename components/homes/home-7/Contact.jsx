@@ -12,8 +12,23 @@ export default function Contact() {
                         <React.Fragment key={index}>
                             <hr className='mt-0 mb-40 mb-sm-20' />
                             <div className={`contact-item mb-40 mb-sm-20`}>
-                                <div className='ci-icon ci-icon-grad'>
-                                    <i className={item.iconClass} />
+                                <div
+                                    className='ci-icon'
+                                    style={{
+                                        backgroundColor: "#ffeed9 !important",
+                                        color: "#FECD8C",
+                                        display: "inline - flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        borderRadius: "50%",
+                                        height: "20px",
+                                        width: "20px",
+                                    }}
+                                >
+                                    <i
+                                        className={item.iconClass}
+                                        style={{ backgroundColor: "#ffeed9", padding: "12px", borderRadius: "50%", marginTop: "25px" }}
+                                    />
                                 </div>
                                 <h4 className='ci-title'>{item.title}</h4>
                                 <div className='ci-text'>{item.text}</div>
