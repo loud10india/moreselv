@@ -11,10 +11,7 @@ import dynamic from "next/dynamic";
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
-// export const metadata = {
-//     title: "Home 10 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-//     description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-// };
+
 export default function Home10MainDemoMultiPage() {
     const videoRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(true);
