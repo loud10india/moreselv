@@ -6,31 +6,23 @@ export default function Newsletter() {
             <div className='row'>
                 <div className='col-md-8 offset-md-2 col-lg-6 offset-lg-3 wow fadeInUp'>
                     <h2 className='section-title text-center mb-40'>
-                        Looking for
-                        <span className='font-alt'> exclusive creative</span> content?
+                        Free ₹1000
+                        <span className='font-alt'> Voucher</span> for New Guests!
                     </h2>
+                    <p>
+                        Your first step to wellness just got better! As a new guest at Mor-Selv, enjoy a ₹1000 voucher to explore our luxurious
+                        treatments and personalized care.
+                    </p>
                     <form onSubmit={(e) => e.preventDefault()} id='mailchimp' className='form newsletter-strong'>
-                        <div className='d-sm-flex justify-content-between mb-20'>
-                            <label htmlFor='newsletter-email' className='visually-hidden'>
-                                Your email
-                            </label>
-                            <input
-                                placeholder='Enter your email'
-                                className='newsletter-field input-lg round'
-                                id='newsletter-email'
-                                name='newsletter-email'
-                                type='email'
-                                pattern='.{5,100}'
-                                required
-                                aria-required='true'
-                            />
-                            <button
-                                type='submit'
-                                aria-controls='subscribe-result'
-                                className='newsletter-button btn btn-mod btn-w btn-large btn-round btn-hover-anim'
+                        <div className='d-sm-flex justify-content-center mb-20'>
+                            <a
+                                href='https://forms.gle/wJjVr7fwax6LpbEv9'
+                                className='newsletter-button btn btn-mod btn-w btn-large btn-round'
+                                target='_blank'
+                                style={{ textDecoration: "none", color: "black", display: "flex", alignItems: "center", justifyContent: "center" }}
                             >
-                                <span>Subscribe Now</span>
-                            </button>
+                                Get Your Voucher
+                            </a>
                         </div>
                         <div className='form-tip'>
                             <i className='icon-info size-16' /> By sending the form you agree to the <a href='#'>Terms &amp; Conditions</a> and{" "}

@@ -23,7 +23,7 @@ export default function Hero1() {
                                 <p className='mb-0'>Boutique wellness center designed exclusively for women, where self-care meets serenity.</p>
                             </div>
                             <div className='col-sm-6 col-md-5 text-center text-sm-end local-scroll'>
-                                <a href='#about' className='btn btn-mod btn-w btn-large btn-round btn-hover-anim'>
+                                <a href='/services' className='btn btn-mod btn-w btn-large btn-round btn-hover-anim'>
                                     <span>Our Services</span>
                                 </a>
                             </div>

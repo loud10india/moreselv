@@ -10,16 +10,16 @@
     --color-gray-1: #6f7780;
     --color-gray-2: #747f8c;
     --color-gray-3: #8a95a2;
-    --color-primary-1: #4567ed;
-    --color-primary-1-a: #375ae3;
-    --color-primary-light-1: #e3effe;
-    --color-primary-light-1-a: #bcd1f1;
-    --color-primary-2: #7752e7;
-    --color-primary-light-2: #e7defe;
-    --color-primary-3: #b947d9;
-    --color-primary-light-3: #f7defe;
-    --color-primary-4: #e748b1;
-    --color-primary-light-4: #ffe1f5;
+    --color-primary-1: #ebba78;
+    --color-primary-1-a: #ebba78;
+    --color-primary-light-1: #ebba78;
+    --color-primary-light-1-a: #ebba78;
+    --color-primary-2: #ebba78;
+    --color-primary-light-2: #ebba78;
+    --color-primary-3: #ebba78;
+    --color-primary-light-3: #ebba78;
+    --color-primary-4: #ebba78;
+    --color-primary-light-4: #ebba78;
     --color-secondary-1: #fbe3a1;
     --color-gray-light-1: #f5f7fa;
     --color-gray-light-2: #f7f9fc;
@@ -77,10 +77,10 @@
     word-spacing: 0.1em;
 }
 .theme-gradient .dark-mode {
-    --color-primary-1: #7f99ff;
-    --color-primary-2: #a080ff;
-    --color-primary-3: #dc5fff;
-    --color-primary-4: #ff68cc;
+    --color-primary-1: #ebba78;
+    --color-primary-2: #ebba78;
+    --color-primary-3: #ebba78;
+    --color-primary-4: #ebba78;
     --gradient-primary-1: linear-gradient(
         90deg,
         var(--color-primary-4) 0%,

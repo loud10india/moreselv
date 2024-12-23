@@ -8,24 +8,30 @@ export default function Footer9() {
                 <div className='row'>
                     {/* Copyright */}
                     {/* <div className='col-lg-3 text-center text-lg-start mb-md-50'> FAQs | Blog/Wellness Tips</div> */}
-                    <div className='col-lg-3 text-center text-lg-end ' style={{ color: "#FECD8C" }}>
-                        {/* <a href='/' className='fw-top-link' style={{ color: "#FECD8C" }}> */}
-                        <span className=''>
-                            {" "}
+                    {/* <div className='col-lg-3 text-center text-lg-end ' style={{ color: "#FECD8C" }}>
+                        <span>
                             <a href='/' className='fw-top-link' style={{ color: "#FECD8C" }}>
-                                <span className=''> FAQs</span>
+                                <span className=''>Blog/Wellness Tips</span>
                             </a>
                         </span>
-                        {/* </a> */}
-                        <a href='/' className='fw-top-link' style={{ color: "#FECD8C" }}>
-                            <span className=''> | Blog/Wellness Tips</span>
+                    </div> */}
+                    <div className='col-lg-3 text-center text-lg-start mb-sm-40'>
+                        <a href='/book-appointment' className='fw-top-link' style={{ color: "#FECD8C" }}>
+                            <span className=''>The Wellness Blog</span>
                         </a>
                     </div>
                     {/* End Copyright */}
                     {/* Social Links */}
                     <div className='col-lg-6 footer-social-links text-center mb-md-40' style={{ color: "#FECD8C" }}>
                         {socialMediaLinks.map((elm, i) => (
-                            <a key={i} href={elm.href} title='Facebook' rel='noopener nofollow' target='_blank' style={{ color: "#FECD8C" }}>
+                            <a
+                                key={i}
+                                href={elm.href}
+                                title='Facebook'
+                                rel='noopener nofollow'
+                                target='_blank'
+                                style={{ color: "#FECD8C", border: "1px solid #FECD8C" }}
+                            >
                                 <span className='visually-hidden' style={{ color: "#FECD8C" }}>
                                     {elm.name}
                                 </span>
@@ -50,7 +56,7 @@ export default function Footer9() {
                         ❤
                     </span>{" "}
                     by{" "}
-                    <a href='https://web2attract.com/' className='fw-top-link'>
+                    <a href='https://web2attract.com/' className='fw-top-link' target='_blank'>
                         WEB2ATTRACT
                     </a>
                 </div>

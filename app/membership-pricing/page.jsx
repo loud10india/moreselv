@@ -13,8 +13,9 @@ const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxCont
 const dark = false;
 const onePage = false;
 export const metadata = {
-    title: "Strong Portfolio || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-    description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Exclusive Spa Memberships for Women at Mor-Selv",
+    description:
+        "Join Mor-Selv’s Diamond or Ruby membership plans and enjoy exclusive benefits, complimentary drinks, discounts, and priority bookings.",
 };
 export default function MembershipAndPricing() {
     return (
@@ -28,7 +29,7 @@ export default function MembershipAndPricing() {
                         <ParallaxContainer
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
-                                backgroundImage: "url(/assets/images/demo-strong/section-bg-1.jpg)",
+                                backgroundImage: "url(/assets/images/demo-strong/spa-unsplash-1.jpg)",
                             }}
                             id='home'
                         >

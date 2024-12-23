@@ -10,7 +10,7 @@ export default function Portfolio() {
                 <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                     <h2 className='section-caption-border'>Our Services</h2>
                     <h3 className='section-title-strong mb-40' style={{ color: "#EBBA78" }}>
-                        A Personalized <span className='font-alt'>Approach</span> to Wellness
+                        A Personalized <span className='font-alt'>Approach</span> to <span className='font-alt'>Wellness</span>
                     </h3>
                     <p className='mb-0'>
                         At <b>Mor-Selv</b>, we offer a range of personalized services designed to nurture your body, mind, and soul. From relaxation

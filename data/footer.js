@@ -38,7 +38,7 @@ export const socialMediaLinks = [
         name: "Facebook",
     },
     {
-        href: "#",
+        href: "https://www.instagram.com/mor.selv/",
         title: "Instagram",
         iconClass: "fa-instagram",
         name: "Instagram",

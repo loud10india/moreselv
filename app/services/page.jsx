@@ -12,8 +12,9 @@ const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxCont
 const dark = false;
 const onePage = false;
 export const metadata = {
-    title: "Strong Portfolio || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-    description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Wellness Services for Women: Relax, Rejuvenate & Glow",
+    description:
+        "Explore Mor-Selv’s range of women-only services, including relaxation therapies, skincare rituals, aromatherapy, and stress-relief packages.",
 };
 export default function Services() {
     return (
@@ -27,7 +28,7 @@ export default function Services() {
                         <ParallaxContainer
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
-                                backgroundImage: "url(/assets/images/demo-strong/section-bg-1.jpg)",
+                                backgroundImage: "url(/assets/images/demo-strong/spa-unsplash-1.jpg)",
                             }}
                             id='home'
                         >
@@ -54,13 +55,13 @@ export default function Services() {
                                         {portfolios10.map((item) => (
                                             <div className='col-md-6 mb-40' key={item.id}>
                                                 <div className='portfolio-4-item'>
-                                                    <Link href={`/strong-portfolio-single/${item.id}`} style={{ color: "#EBBA78" }}>
+                                                    <Link href={`/strong-portfolio-single/${item.id}`}>
                                                         <div className='portfolio-4-image'>
                                                             <Image src={item.imgSrc} width={902} height={564} alt={item.imgAlt} />
                                                         </div>
                                                         <div className='portfolio-4-intro'>
                                                             <h4 className='portfolio-4-title'>{item.title}</h4>
-                                                            <div className='portfolio-4-descr'>{item.description}</div>
+                                                            {/* <div className='portfolio-4-descr'>{item.description}</div> */}
                                                         </div>{" "}
                                                     </Link>
                                                 </div>
@@ -80,20 +81,21 @@ export default function Services() {
                                     <div className='row'>
                                         <div className='col-lg-6 mb-md-40 mb-sm-30'>
                                             <h2 className='section-title-strong mt-n20 mb-40 mb-sm-30' style={{ color: "#EBBA78" }}>
-                                                Creativity meets <span className='font-alt'>technology</span> here
+                                                Best
+                                                <span className='font-alt'> Wellness Center for</span> <span className='font-alt'>Women in </span>
+                                                Gurgaon
                                             </h2>
                                             <div className='local-scroll'>
-                                                <Link href={`/strong-contact`} className='btn btn-mod btn-large btn-round btn-hover-anim'>
-                                                    <span>Start a Project</span>
+                                                <Link href='/book-appointment' className='btn btn-mod btn-large btn-round btn-hover-anim'>
+                                                    <span>Book an Appointment</span>
                                                 </Link>
                                             </div>
                                         </div>
                                         <div className='col-lg-6'>
                                             <p className='mb-40 mb-sm-30'>
-                                                Suspendisse pellentesque mi non ipsum finibus vestibulum. Vestibulum posuere magna auctor malesuada
-                                                scelerisque. Sed sed sem id magna congue interdum et sit amet leo. Praesent sit amet ipsum orci. Fusce
-                                                faucibus nibh at quam facilisis venenatis posuere non quis lacus. Quisque massa lectus, tincidunt non
-                                                sem non, placerat bibendum nibh.
+                                                At <b>Mor-Selv</b>, Our treatments are tailored to meet your individual needs, ensuring you leave
+                                                feeling refreshed, revitalized, and empowered. Whether you’re looking for a calming escape or an
+                                                indulgent pampering session, our team is here to provide you with a transformative experience.
                                             </p>
                                             {/* Features List */}
                                             <div className='row mt-n20'>
@@ -102,7 +104,7 @@ export default function Services() {
                                                     <div className='features-list-icon'>
                                                         <i className='mi-check' />
                                                     </div>
-                                                    <div className='features-list-text'>Agency Website</div>
+                                                    <div className='features-list-text'>Exclusively for Women</div>
                                                 </div>
                                                 {/* End Features List Item */}
                                                 {/* Features List Item */}
@@ -110,7 +112,7 @@ export default function Services() {
                                                     <div className='features-list-icon'>
                                                         <i className='mi-check' />
                                                     </div>
-                                                    <div className='features-list-text'>Personal Website</div>
+                                                    <div className='features-list-text'>Personalized Wellness Journeys</div>
                                                 </div>
                                                 {/* End Features List Item */}
                                                 {/* Features List Item */}
@@ -118,7 +120,7 @@ export default function Services() {
                                                     <div className='features-list-icon'>
                                                         <i className='mi-check' />
                                                     </div>
-                                                    <div className='features-list-text'>Landing Page</div>
+                                                    <div className='features-list-text'>Expert Therapists & Care</div>
                                                 </div>
                                                 {/* End Features List Item */}
                                                 {/* Features List Item */}
@@ -126,7 +128,7 @@ export default function Services() {
                                                     <div className='features-list-icon'>
                                                         <i className='mi-check' />
                                                     </div>
-                                                    <div className='features-list-text'>Portfolio and Gallery</div>
+                                                    <div className='features-list-text'>Serene & Luxurious Ambience</div>
                                                 </div>
                                                 {/* End Features List Item */}
                                             </div>

@@ -123,7 +123,7 @@ export default function Contact() {
                                         aria-controls='result'
                                         className='submit_btn btn btn-mod btn-white btn-large btn-round btn-hover-anim align-middle'
                                     >
-                                        <span> Send Message </span>
+                                        <span> Book Your Appointment</span>
                                     </button>
                                 </div>
                             </div>
