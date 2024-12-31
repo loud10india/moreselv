@@ -10,7 +10,7 @@ export default function Hero1() {
                     className='mb-4 text-center'
                     style={{
                         color: "#FECD8C",
-                        fontSize: "calc(4.3rem + 3.10vw)", // Responsive font size
+                        fontSize: "calc(4.6rem + 3.10vw)", // Responsive font size
                         lineHeight: "1.2",
                     }}
                 >
