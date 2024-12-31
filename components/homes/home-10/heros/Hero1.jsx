@@ -6,22 +6,11 @@ export default function Hero1() {
         <div className='container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120'>
             {/* Home Section Content */}
             <div className='home-content text-center'>
-                {/* <h1 className='mb-4 display-8 display-sm-5 display-md-4 display-lg-8' style={{ color: "#FECD8C" }}>
-                    <span className='wow charsAnimIn-1' data-splitting='chars'>
-                        <div>
-                            <AnimatedText text='Women’s' />
-                        </div>
-                        <span className='font-alt'>
-                            <AnimatedText text='Wellness' />
-                        </span>
-                        <AnimatedText text='Center' />
-                    </span>
-                </h1> */}
                 <h1
-                    className='mb-4 display-1 text-sm-center text-md-center text-lg-center'
+                    className='mb-4 text-center'
                     style={{
                         color: "#FECD8C",
-                        fontSize: "112px",
+                        fontSize: "calc(4.3rem + 3.3vw)", // Responsive font size
                         lineHeight: "1.2",
                     }}
                 >
