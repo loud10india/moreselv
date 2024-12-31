@@ -15,6 +15,12 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { featuresListData } from "@/data/features";
 import Image from "next/image";
+import { Alata } from "next/font/google";
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 
 export default function Home10({ onePage = false, dark = false }) {
     // useEffect(() => {
@@ -45,9 +51,11 @@ export default function Home10({ onePage = false, dark = false }) {
                     <div className='row'>
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                             <h2 className='section-caption-border'>About Us</h2>
-                            <h3 className='section-title-strong mb-90 mb-sm-50' style={{ color: "#EBBA78" }}>
-                                Hello, <span className='font-alt'>Gorgeous</span> Girls!
-                            </h3>
+                            <div className={alata.className}>
+                                <h3 className='section-title-strong mb-90 mb-sm-50' style={{ color: "#EBBA78" }}>
+                                    Hello, <span className='font-alt'>Gorgeous</span> Girls!
+                                </h3>
+                            </div>
                         </div>
                     </div>
 
@@ -74,8 +82,9 @@ export default function Home10({ onePage = false, dark = false }) {
 
             <section className={`page-section  scrollSpysection  overflow-hidden  ${dark ? "bg-dark-1 light-content" : ""}`} id='portfolio'>
                 <Portfolio />
+                <hr />
             </section>
-            {/* <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} /> */}
+            {/* <hr /> */}
             <section className='pt-30'>
                 <div id='paddingRightContainer' className='container' />
                 <div className='row g-0'>

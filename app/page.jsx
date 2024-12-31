@@ -6,11 +6,17 @@ import Hero1 from "@/components/homes/home-10/heros/Hero1";
 // import Hero6 from "@/components/homes/home-10/heros/Hero6";
 import { useRef, useState } from "react";
 import Footer4 from "@/components/footers/Footer4";
+import { Alata } from "next/font/google";
 
 import { strongMultiPages } from "@/data/menu";
 import dynamic from "next/dynamic";
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
+});
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
 });
 
 export default function Home10MainDemoMultiPage() {

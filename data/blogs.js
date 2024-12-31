@@ -3,61 +3,74 @@ export const blogs1 = [
         id: 1,
         delay: "0.1s",
         imgSrc: "/assets/images/blog/post-prev-1.jpg",
-        title: "Spotlight — Equinox Collection by Shane Griffin",
-        text: "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-        authorImg: "/assets/images/blog/author/author-1.jpg",
-        authorName: "Adam Smith",
-        date: "August 3",
+        title: "For the Party Divas",
+        text: (
+            <>
+                We offer <strong>Aromatherapy Massage</strong> to rejuvenate your senses and <strong>Lymphatic Drainage Massage</strong> to detox and
+                reduce puffiness.Perfect for recovering from a night of celebration and restoring your natural glow.
+            </>
+        ),
     },
     {
         id: 2,
         delay: "0.2s",
         imgSrc: "/assets/images/blog/post-prev-2.jpg",
-        title: "Random Explorations with Cinema 4D and Redshift",
-        text: "Nidia Dias is a 3D designer based in the Portugal with an incredible portfolio. From the professional work done with...",
-        authorImg: "/assets/images/blog/author/author-2.jpg",
-        authorName: "Emma Kandel",
-        date: "August 2",
+        title: "For New Moms, With Love",
+        text: (
+            <>
+                Our <strong>Postnatal Massage</strong> is designed to ease muscle tension, improve circulation, and support postpartum recovery. Pair
+                it with <strong>Lymphatic Drainage Massage</strong> to reduce swelling and detoxify your body during this special time.
+            </>
+        ),
     },
     {
         id: 3,
         delay: "0.3s",
         imgSrc: "/assets/images/blog/post-prev-3.jpg",
-        title: "Visually Identity and Branding for Mexican Restaurant",
-        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-        authorImg: "/assets/images/blog/author/author-3.jpg",
-        authorName: "Thomas Johnson",
-        date: "August 1",
+        title: "For the Timeless Beauties",
+        text: (
+            <>
+                <strong>Deep Tissue Massage</strong> helps relieve chronic pain and stiffness, while <strong>Hot Stone Massage</strong> uses soothing
+                warmth to melt away tension and improve joint mobility. Ideal for women seeking relaxation and vitality.
+            </>
+        ),
     },
     {
         id: 4,
         delay: "0.3s",
         imgSrc: "/assets/images/blog/post-prev-3.jpg",
-        title: "Visually Identity and Branding for Mexican Restaurant",
-        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-        authorImg: "/assets/images/blog/author/author-3.jpg",
-        authorName: "Thomas Johnson",
-        date: "August 1",
+        title: "For the Corporate Queens",
+        text: (
+            <>
+                Unwind with a <strong>Swedish Massage</strong> that alleviates stress and enhances circulation, or recharge with{" "}
+                <strong>Reflexology</strong>, focusing on key pressure points to boost energy and reduce fatigue from long workdays.
+            </>
+        ),
     },
     {
         id: 5,
         delay: "0.3s",
         imgSrc: "/assets/images/blog/post-prev-3.jpg",
-        title: "Visually Identity and Branding for Mexican Restaurant",
-        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-        authorImg: "/assets/images/blog/author/author-3.jpg",
-        authorName: "Thomas Johnson",
-        date: "August 1",
+        title: "For the Brides-to-Be",
+        text: (
+            <>
+                Prepare for your big day with an <strong>Aromatherapy Massage</strong> to relax and nourish your skin or a{" "}
+                <strong>Body Polishing Massage</strong> to exfoliate and leave your skin smooth and radiant. Perfect pre-wedding pampering awaits.
+            </>
+        ),
     },
     {
         id: 6,
         delay: "0.3s",
         imgSrc: "/assets/images/blog/post-prev-3.jpg",
-        title: "Visually Identity and Branding for Mexican Restaurant",
-        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
-        authorImg: "/assets/images/blog/author/author-3.jpg",
-        authorName: "Thomas Johnson",
-        date: "August 1",
+        title: "For the Fitness Enthusiasts",
+        text: (
+            <>
+                We offer <strong>Sports Recovery Massage</strong> to soothe sore muscles and improve flexibility, and{" "}
+                <strong>Deep Tissue Massage</strong> to target areas of tension and enhance post-workout recovery. Perfect for active women staying at
+                the top of their game.
+            </>
+        ),
     },
 ];
 

@@ -6,19 +6,36 @@ export default function Hero1() {
         <div className='container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120'>
             {/* Home Section Content */}
             <div className='home-content text-center'>
-                <h1 className='hs-title-7 mb-40' style={{ color: "#FECD8C" }}>
+                {/* <h1 className='mb-4 display-8 display-sm-5 display-md-4 display-lg-8' style={{ color: "#FECD8C" }}>
                     <span className='wow charsAnimIn-1' data-splitting='chars'>
-                        <div className='' style={{ fontSize: "110px" }}>
-                            <AnimatedText text='Women’s' />{" "}
+                        <div>
+                            <AnimatedText text='Women’s' />
                         </div>
-                        <span className='font-alt' style={{ fontSize: "110px" }}>
-                            <AnimatedText text='Wellness' />{" "}
-                        </span>{" "}
-                        <span style={{ fontSize: "110px" }}>
-                            <AnimatedText text='Center' />
+                        <span className='font-alt'>
+                            <AnimatedText text='Wellness' />
                         </span>
+                        <AnimatedText text='Center' />
+                    </span>
+                </h1> */}
+                <h1
+                    className='mb-4 display-1 text-sm-center text-md-center text-lg-center'
+                    style={{
+                        color: "#FECD8C",
+                        fontSize: "112px",
+                        lineHeight: "1.2",
+                    }}
+                >
+                    <span className='wow charsAnimIn-1' data-splitting='chars'>
+                        <div>
+                            <AnimatedText text='Women’s' />
+                        </div>
+                        <span className='font-alt'>
+                            <AnimatedText text='Wellness' />
+                        </span>
+                        <AnimatedText text='Center' />
                     </span>
                 </h1>
+
                 <div className='row'>
                     <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2'>
                         <hr className='white mt-0 mb-30 wow scalexIn' data-wow-delay='0.85s' />
