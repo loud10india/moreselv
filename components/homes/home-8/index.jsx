@@ -30,45 +30,36 @@ export default function Home8({ onePage = false, dark = false, eadge2 = false })
                             </p>
                             {/* Accordion */}
                             <Accordion />
-                            {/* End Accordion */}
+
                             <div className='local-scroll text-center'>
                                 {onePage ? (
-                                    <>
-                                        <a href='#established' className='btn btn-mod  btn-ellipse' data-btn-animate='ellipse'>
-                                            <span className='btn-ellipse-inner'>
-                                                <span className='btn-ellipse-unhovered'>
-                                                    {/* Learn more <span className='visually-hidden'>about us</span> */}
-
-                                                    <img src='/assets/images/demo-strong/PriceList.png' alt='' />
-                                                </span>
-                                                <span className='btn-ellipse-hovered' aria-hidden='true'>
-                                                    {/* Learn more <span className='visually-hidden'>about us</span> */}
-                                                    <img src='/assets/images/demo-strong/PriceList.png' alt='' />
-                                                </span>
+                                    <a
+                                        href='https://api.whatsapp.com/send?phone=9818296300&text=Hey!%20I%27m%20interested%20in%20knowing%20more%20about%20your%20services.%20Please%20help%20me%20with%20my%20questions'
+                                        className='btn btn-mod btn-ellipse'
+                                        data-btn-animate='ellipse'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        <span className='btn-ellipse-inner'>
+                                            <span className='btn-ellipse-unhovered'>
+                                                <img src='/assets/images/demo-strong/PriceList.png' alt='' />
                                             </span>
-                                        </a>
-                                    </>
+                                            <span className='btn-ellipse-hovered' aria-hidden='true'>
+                                                <img src='/assets/images/demo-strong/PriceList.png' alt='' />
+                                            </span>
+                                        </span>
+                                    </a>
                                 ) : (
-                                    <>
-                                        <Link href='' data-btn-animate='ellipse'>
-                                            <span>
-                                                <span>
-                                                    <img
-                                                        src='/assets/images/demo-strong/PriceList.png'
-                                                        alt=''
-                                                        style={{ width: "400px", height: "auto" }}
-                                                    />
-                                                </span>
-                                                <span className='btn-ellipse-hovered' aria-hidden='true'>
-                                                    <img
-                                                        src='/assets/images/demo-strong/PriceList.png'
-                                                        alt=''
-                                                        style={{ width: "400px", height: "auto" }}
-                                                    />
-                                                </span>
-                                            </span>
-                                        </Link>
-                                    </>
+                                    <a
+                                        href='https://api.whatsapp.com/send?phone=9818296300&text=Hey!%20I%27m%20interested%20in%20knowing%20more%20about%20your%20services.%20Please%20help%20me%20with%20my%20questions'
+                                        data-btn-animate='ellipse'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        <span>
+                                            <img src='/assets/images/demo-strong/PriceList.png' alt='' style={{ width: "400px", height: "auto" }} />
+                                        </span>
+                                    </a>
                                 )}
                             </div>
                         </div>
