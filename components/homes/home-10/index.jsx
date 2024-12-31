@@ -71,122 +71,11 @@ export default function Home10({ onePage = false, dark = false }) {
                 </div>
             </section>
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
-            {/* <section className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='team'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-xl-5 d-flex align-items-center team-1-column-sticky mb-lg-90 mb-sm-50'>
-                            <div>
-                                <h2 className='section-caption-border'>Our Team</h2>
-                                <h3 className='section-title-strong mb-40'>
-                                    Meet the<span className='font-alt'>team of</span> experts
-                                </h3>
-                                <p className='mb-40'>
-                                    Aliquam erat volutpat. Proin luctus interdum orci, euismod ultrices placerat ultricies pretium sem euismod et. Nam
-                                    consequat lectus nec nunc faucibus.
-                                </p>
-                                <div className='local-scroll'>
-                                    {onePage ? (
-                                        <>
-                                            {" "}
-                                            <a href='#contact' className='btn btn-mod btn-white btn-large btn-round btn-hover-anim'>
-                                                <span>Join our Team</span>
-                                            </a>
-                                        </>
-                                    ) : (
-                                        <>
-                                            {" "}
-                                            <Link
-                                                href={`/strong-contact${dark ? "-dark" : ""}`}
-                                                className='btn btn-mod btn-white btn-large btn-round btn-hover-anim'
-                                            >
-                                                <span>Join our Team</span>
-                                            </Link>
-                                        </>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
 
-                        <div className='col-xl-6 offset-xl-1'>
-                            <Team />
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-            {/* <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} /> */}
-            {/* <section className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='services'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
-                            <h2 className='section-caption-border'>Our Services</h2>
-                            <h3 className='section-title-strong mb-90 mb-sm-50'>
-                                We provide the
-                                <span className='font-alt'>full stack of</span> creative services
-                            </h3>
-                        </div>
-                    </div>
-
-                    <Service />
-                </div>
-            </section> */}
-            {/* <section className='pt-30'>
-                <div id='paddingLeftContainer' className='container'></div>
-                <div className='row g-0'>
-                    <div className='col-lg-6'>
-                        <div
-                            id='paddingLeft'
-                            className={`split-column-left ${
-                                dark ? "bg-dark-2" : "bg-dark-1"
-                            }  light-content position-relative d-flex align-items-center`}
-                        >
-                            <div className='position-absolute top-0 end-0 pt-2 pe-2 opacity-02'>
-                                <Image width={192} height={222} src='/assets/images/demo-strong/decoration.svg' alt='' />
-                            </div>
-
-                            <div>
-                                <h2 className='section-title mb-30'>
-                                    Looking for
-                                    <span className='font-alt'>exclusive creative</span> services?
-                                </h2>
-                                <p className='mb-50'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id tellus rutrum, consectetur tellus et, posuere
-                                    mauris. Sed sit amet lacinia nunc vestibulum non varius nunc.
-                                </p>
-                                <div className='local-scroll'>
-                                    {onePage ? (
-                                        <>
-                                            <a href='#contact' className='btn btn-mod btn-white btn-w btn-large btn-round btn-hover-anim'>
-                                                <span>Start a Project</span>
-                                            </a>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <Link
-                                                href={`/strong-contact${dark ? "-dark" : ""}`}
-                                                className='btn btn-mod btn-white btn-w btn-large btn-round btn-hover-anim'
-                                            >
-                                                <span>Start a Project</span>
-                                            </Link>
-                                        </>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-6 d-flex align-items-stretch mt-n30 mt-md-0 mb-30 mb-md-0'>
-                        <div className='split-image-right' data-rellax-y='' data-rellax-speed='0.5' data-rellax-percentage='0.5'>
-                            <Image width={1100} height={930} src='/assets/images/demo-strong/split-image-1.jpg' alt='Image Description' />
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <section className={`page-section  scrollSpysection  overflow-hidden  ${dark ? "bg-dark-1 light-content" : ""}`} id='portfolio'>
                 <Portfolio />
             </section>
             {/* <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} /> */}
-            {/* <section className={`page-section overflow-hidden  ${dark ? "bg-dark-1 light-content" : ""}`}>
-                <Features />
-            </section> */}
             <section className='pt-30'>
                 <div id='paddingRightContainer' className='container' />
                 <div className='row g-0'>
@@ -239,11 +128,6 @@ export default function Home10({ onePage = false, dark = false }) {
                                 src='/assets/images/demo-strong/MorSelv-Women-Spa-Gurugram.jpg'
                                 alt='Image Description'
                             />
-                            {/* Circle Text */}
-                            {/* <div className='position-absolute bottom-0 start-0 ps-4 pb-4 d-none d-sm-block'>
-                                <Image src='/assets/images/demo-strong/circle-text.svg' width={138} height={138} alt='Image Description' />
-                            </div> */}
-                            {/* End Circle Text */}
                         </div>
                     </div>
                 </div>
@@ -265,9 +149,7 @@ export default function Home10({ onePage = false, dark = false }) {
                 </div>
             </section>
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
-            {/* <section className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='blog'>
-                <Blog />
-            </section> */}
+
             <section
                 className='page-section bg-dark-1 light-content'
                 style={{
@@ -279,9 +161,9 @@ export default function Home10({ onePage = false, dark = false }) {
             {/* <section className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
                 <Contact />
             </section> */}
-            <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
+            {/* <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
                 <Contact />
-            </section>
+            </section> */}
         </>
     );
 }

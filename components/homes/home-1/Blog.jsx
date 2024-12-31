@@ -19,24 +19,9 @@ export default function Blog() {
                             <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>{elm.title}</Link>
                         </h4>
                         <div className='post-prev-text'>{elm.text}</div>
-                        <div className='post-prev-info clearfix'>
-                            <div className='float-start'>
-                                <a href='#'>
-                                    <Image className='post-prev-author-img' width={30} height={30} src={elm.authorImg} alt='Image Description' />
-                                </a>
-                                <a href='#'>{elm.authorName}</a>
-                            </div>
-                            <div className='float-end'>
-                                <a href='#'>{elm.date}</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             ))}
-            {/* End Post Item */}
-            {/* Post Item */}
-
-            {/* End Post Item */}
         </div>
     );
 }

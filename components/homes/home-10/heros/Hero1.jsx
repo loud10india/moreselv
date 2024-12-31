@@ -8,11 +8,15 @@ export default function Hero1() {
             <div className='home-content text-center'>
                 <h1 className='hs-title-7 mb-40' style={{ color: "#FECD8C" }}>
                     <span className='wow charsAnimIn-1' data-splitting='chars'>
-                        <AnimatedText text='Women’s' />{" "}
-                        <span className='font-alt'>
+                        <div className='' style={{ fontSize: "110px" }}>
+                            <AnimatedText text='Women’s' />{" "}
+                        </div>
+                        <span className='font-alt' style={{ fontSize: "110px" }}>
                             <AnimatedText text='Wellness' />{" "}
                         </span>{" "}
-                        <AnimatedText text='Spa' />
+                        <span style={{ fontSize: "110px" }}>
+                            <AnimatedText text='Center' />
+                        </span>
                     </span>
                 </h1>
                 <div className='row'>

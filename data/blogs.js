@@ -29,6 +29,36 @@ export const blogs1 = [
         authorName: "Thomas Johnson",
         date: "August 1",
     },
+    {
+        id: 4,
+        delay: "0.3s",
+        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        title: "Visually Identity and Branding for Mexican Restaurant",
+        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
+        authorImg: "/assets/images/blog/author/author-3.jpg",
+        authorName: "Thomas Johnson",
+        date: "August 1",
+    },
+    {
+        id: 5,
+        delay: "0.3s",
+        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        title: "Visually Identity and Branding for Mexican Restaurant",
+        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
+        authorImg: "/assets/images/blog/author/author-3.jpg",
+        authorName: "Thomas Johnson",
+        date: "August 1",
+    },
+    {
+        id: 6,
+        delay: "0.3s",
+        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        title: "Visually Identity and Branding for Mexican Restaurant",
+        text: "Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...",
+        authorImg: "/assets/images/blog/author/author-3.jpg",
+        authorName: "Thomas Johnson",
+        date: "August 1",
+    },
 ];
 
 export const blogs2 = [

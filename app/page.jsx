@@ -5,6 +5,7 @@ import Home10 from "@/components/homes/home-10";
 import Hero1 from "@/components/homes/home-10/heros/Hero1";
 // import Hero6 from "@/components/homes/home-10/heros/Hero6";
 import { useRef, useState } from "react";
+import Footer4 from "@/components/footers/Footer4";
 
 import { strongMultiPages } from "@/data/menu";
 import dynamic from "next/dynamic";
@@ -68,8 +69,11 @@ export default function Home10MainDemoMultiPage() {
 
                         <Home10 />
                     </main>
-                    <footer className='footer-1 bg-dark-1 light-content' style={{ color: "#FECD8C" }}>
+                    {/* <footer className='footer-1 bg-dark-1 light-content' style={{ color: "#FECD8C" }}>
                         <Footer9 />
+                    </footer> */}
+                    <footer className='footer-2 pb-50 '>
+                        <Footer4 />
                     </footer>
                 </div>
             </div>{" "}
