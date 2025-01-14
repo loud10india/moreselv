@@ -2,7 +2,7 @@ export const blogs1 = [
     {
         id: 1,
         delay: "0.1s",
-        imgSrc: "/assets/images/blog/post-prev-1.jpg",
+        imgSrc: "/assets/images/blog/Party Divas (2).jpg",
         title: "For the Party Divas",
         text: (
             <>
@@ -14,7 +14,7 @@ export const blogs1 = [
     {
         id: 2,
         delay: "0.2s",
-        imgSrc: "/assets/images/blog/post-prev-2.jpg",
+        imgSrc: "/assets/images/blog/New Moms.jpg",
         title: "For New Moms, With Love",
         text: (
             <>
@@ -26,7 +26,7 @@ export const blogs1 = [
     {
         id: 3,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        imgSrc: "/assets/images/blog/Timeless Beauties.jpg",
         title: "For the Timeless Beauties",
         text: (
             <>
@@ -38,7 +38,7 @@ export const blogs1 = [
     {
         id: 4,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        imgSrc: "/assets/images/blog/Corporate Queens.jpg",
         title: "For the Corporate Queens",
         text: (
             <>
@@ -50,7 +50,7 @@ export const blogs1 = [
     {
         id: 5,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        imgSrc: "/assets/images/blog/Brides-to-Be.jpg",
         title: "For the Brides-to-Be",
         text: (
             <>
@@ -62,7 +62,7 @@ export const blogs1 = [
     {
         id: 6,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/post-prev-3.jpg",
+        imgSrc: "/assets/images/blog/Fitness Enthusiasts.jpg",
         title: "For the Fitness Enthusiasts",
         text: (
             <>

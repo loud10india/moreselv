@@ -63,7 +63,7 @@ export const faqs3 = [
                         <b>Gift Your Service:</b> Transfer unused services to a friend or family member at no extra cost.
                     </li>
                     <li>
-                        <b>Referral Reward:</b> Refer a friend who joins as a member and get a <b>FREE 50-minute massage therapy session.</b>
+                        <b>Referral Reward:</b> Refer a friend who joins as a member and get a <b>FREE 45-minute massage therapy session.</b>
                     </li>
                 </ul>
             </ul>
@@ -89,7 +89,7 @@ export const faqs3 = [
                     </li>
 
                     <li>
-                        <b>Referral Reward:</b> Refer a friend who joins as a member and get <b>2 FREE 90-minute massage therapy sessions.</b>
+                        <b>Referral Reward:</b> Refer a friend who joins as a member and get <b>2 FREE 45-minute massage therapy sessions.</b>
                     </li>
                 </ul>
             </ul>
