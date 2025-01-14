@@ -52,8 +52,8 @@ export default function Home10({ onePage = false, dark = false }) {
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                             <h2 className='section-caption-border'>About Us</h2>
                             <div className={alata.className}>
-                                <h3 className='section-title-strong mb-90 mb-sm-50' style={{ color: "#EBBA78" }}>
-                                    Hello, <span className='font-alt'>Gorgeous</span> Girls!
+                                <h3 className='section-title-strong mb-90 mb-sm-50' style={{ color: "#EBBA78", fontWeight: "500" }}>
+                                    Hey <span className='font-alt'>Gorgeous!</span>
                                 </h3>
                             </div>
                         </div>
@@ -63,16 +63,17 @@ export default function Home10({ onePage = false, dark = false }) {
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                             <div className='wow linesAnimIn' data-splitting='lines'>
                                 <p className='lead mt-0'>
-                                    Welcome to <b>Mor-Selv</b>, your new sanctuary for wellness, located in the heart of Gurgaon at AVA Court, Malibu
-                                    Towne. <b>Exclusively for women</b>, our boutique wellness center is thoughtfully designed to help you relax,
-                                    rejuvenate, and rediscover yourself in a serene and supportive environment.
+                                    At Mor-selv, we believe that true well-being is a journey of self-discovery, a harmonious balance of mind, body,
+                                    and spirit. We understand the unique challenges women face in today's world – juggling demanding careers,
+                                    nurturing families, and navigating the complexities of modern life. This constant striving can leave us feeling
+                                    depleted, stressed, and disconnected from ourselves.
                                 </p>
                                 <p style={{ fontSize: "1.1em" }}>
-                                    At <b>Mor-Selv</b>, we believe every woman deserves a space where she can escape the everyday, reconnect with
-                                    herself, and embrace a journey of complete wellness. Whether it’s a calming treatment, a revitalizing ritual, or
-                                    simply a moment of tranquility, we’re here to make it all about you.
+                                    Mor-selv is a sanctuary exclusively for women, a haven of tranquility where you can escape the pressures of daily
+                                    life and rediscover your inner peace. We are dedicated to empowering women to achieve holistic well-being through
+                                    a range of personalized wellness services.
                                 </p>
-                                <p style={{ fontSize: "1.1em" }}>Your wellness journey begins here.</p>
+                                {/* <p style={{ fontSize: "1.1em" }}>Your wellness journey begins here.</p> */}
                             </div>
                         </div>
                     </div>
@@ -145,9 +146,11 @@ export default function Home10({ onePage = false, dark = false }) {
                 <div className='container'>
                     <div className='row mb-90 mb-sm-50'>
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
-                            <h2 className='section-title-strong mb-40' style={{ color: "#EBBA78" }}>
-                                <span className='font-alt'>Loved</span> by <span className='font-alt'>Women</span> Like You
-                            </h2>
+                            <div className={alata.className}>
+                                <h2 className='section-title-strong mb-40' style={{ color: "#EBBA78", fontWeight: "500" }}>
+                                    Loved by <span className='font-alt'>Women</span> Like You
+                                </h2>
+                            </div>
                             <p className='mb-0'>
                                 At Mor-Selv, our goal is to create unforgettable wellness experiences that leave you feeling renewed and empowered.
                                 Don’t just take our word for it—here’s what our guests have to say:

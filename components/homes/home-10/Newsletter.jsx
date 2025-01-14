@@ -17,16 +17,11 @@ export default function Newsletter() {
                         <div className='d-sm-flex justify-content-center mb-20'>
                             <a
                                 href='https://forms.gle/wJjVr7fwax6LpbEv9'
-                                className='newsletter-button btn btn-mod btn-w btn-large btn-round'
+                                className='newsletter-button btn  btn-mod btn-w btn-large btn-round'
                                 target='_blank'
-                                style={{ textDecoration: "none", color: "black", display: "flex", alignItems: "center", justifyContent: "center" }}
                             >
                                 Get Your Voucher
                             </a>
-                        </div>
-                        <div className='form-tip'>
-                            <i className='icon-info size-16' /> By sending the form you agree to the <a href='#'>Terms &amp; Conditions</a> and{" "}
-                            <a href='#'>Privacy Policy</a>.
                         </div>
                         <div id='subscribe-result' role='region' aria-live='polite' aria-atomic='true' />
                     </form>

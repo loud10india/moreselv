@@ -15,7 +15,7 @@ export default function Footer4() {
             <div className='page-section'>
                 <div className='row'>
                     <div className='col-lg-6 mb-md-60'>
-                        <h2 className='section-title mb-60 mb-sm-40'>Ready to get started with Resonance Template?</h2>
+                        <h1 className='section-title mb-60 mb-sm-40'>Ready to get started with Resonance Template?</h1>
                         <div className='local-scroll'>
                             <a
                                 href='/book-appointment'

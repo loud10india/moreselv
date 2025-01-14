@@ -9,6 +9,7 @@ import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
 import { MainLayout } from "@/components/homes/layout/mainLayout/main.layout";
+import WhatsappLive from "./WhatsappLive";
 
 export const metadata = {
     title: "Mor-Selv: Women-Only Wellness & Spa in Gurgaon",
@@ -38,7 +39,10 @@ export default function RootLayout({ children }) {
                 <link rel='icon' href='/favicon.ico' sizes='any' />
             </head>
             <body className='appear-animate body'>
-                <MainLayout>{children}</MainLayout>
+                <MainLayout>
+                    {children}
+                    <WhatsappLive />
+                </MainLayout>
             </body>
         </html>
     );

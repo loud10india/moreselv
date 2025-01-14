@@ -17,7 +17,7 @@ export default function Home8({ onePage = false, dark = false, eadge2 = false })
                     <div className='row'>
                         <div className='col-lg-10 offset-lg-1'>
                             <div className='section-descr-extralarge mb-60 mb-md-40 wow linesAnimIn' data-splitting='lines'>
-                                <h2 className='section-title-inline-1'>Membership and Pricing</h2>
+                                {/* <h2 className='section-title-inline-1'>Membership and Pricing</h2> */}
                                 At Mor-Selv, we believe that true wellness is a journey, not a destination. That’s why we’ve designed our Diamond and
                                 Ruby memberships to offer you unparalleled access to our rejuvenating services, exclusive perks, and personalized
                                 care.

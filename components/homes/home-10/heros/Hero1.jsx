@@ -30,7 +30,7 @@ export default function Hero1() {
                         <hr className='white mt-0 mb-30 wow scalexIn' data-wow-delay='0.85s' />
                         <div className='row wow fadeInUpShort' data-wow-delay='1.35s'>
                             <div className='col-sm-6 col-md-7 text-center text-sm-start mb-xs-30'>
-                                <p className='mb-0'>Boutique wellness center designed exclusively for women, where self-care meets serenity.</p>
+                                <p className='mb-0'>Experience luxury and personalized wellness in a haven designed exclusively for women.</p>
                             </div>
                             <div className='col-sm-6 col-md-5 text-center text-sm-end local-scroll'>
                                 <a href='/services' className='btn btn-mod btn-w btn-large btn-round btn-hover-anim'>

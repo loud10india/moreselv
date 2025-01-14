@@ -45,7 +45,7 @@ export const faqDataMain = [
 ];
 export const faqs3 = [
     {
-        question: "Diamond Membership",
+        question: "The Radiance Membership",
         answer: (
             <ul>
                 <li>
@@ -57,44 +57,65 @@ export const faqs3 = [
                 <b>What's Included:</b>
                 <ul>
                     <li>
-                        <b>Complimentary Drink</b> with every visit
+                        <b>Complimentary Drink</b> with every visit.
                     </li>
                     <li>
-                        <b>Gift Your Service:</b> Transfer unused services to a friend or family member at no extra cost
+                        <b>Gift Your Service:</b> Transfer unused services to a friend or family member at no extra cost.
                     </li>
                     <li>
-                        <b>Referral Reward:</b> Refer a friend who joins as a member and get a <b>FREE 50-minute massage</b>
+                        <b>Referral Reward:</b> Refer a friend who joins as a member and get a <b>FREE 50-minute massage therapy session.</b>
                     </li>
                 </ul>
             </ul>
         ),
     },
     {
-        question: "Ruby Membership",
+        question: "The Serenity Membership",
         answer: (
             <ul>
                 <li>
-                    <b>Price:</b> ₹18,000 for 6 Months
+                    <b>Price:</b> ₹25,000 for 12 Months
                 </li>
                 <li>
-                    <b>Value of Services:</b> ₹36,000
+                    <b>Value of Services:</b> ₹38,000
                 </li>
                 <b>What's Included:</b>
                 <ul>
                     <li>
-                        <b>Complimentary Drink</b> with every visit
+                        <b>Complimentary Drink</b> with every visit.
                     </li>
                     <li>
-                        <b>Gift Your Service:</b> Transfer unused services to a friend or family member at no extra cost
+                        <b>Gift Your Service:</b> Transfer unused services to a friend or family member at no extra cost.
+                    </li>
+
+                    <li>
+                        <b>Referral Reward:</b> Refer a friend who joins as a member and get <b>2 FREE 90-minute massage therapy sessions.</b>
+                    </li>
+                </ul>
+            </ul>
+        ),
+    },
+    {
+        question: "The Indulgence Membership",
+        answer: (
+            <ul>
+                <li>
+                    <b>Price:</b> ₹50,000 for 12 Months
+                </li>
+                <li>
+                    <b>Value of Services:</b> ₹80,000
+                </li>
+                <b>What's Included:</b>
+                <ul>
+                    <li>
+                        <b>Complimentary Drink</b> with every visit.
                     </li>
                     <li>
-                        <b>Friends & Family Discount:</b> Your loved ones can enjoy services at your membership rate (one-time use per guest)
+                        <b>Gift Your Service:</b> Transfer unused services to a friend or family member at no extra cost.
                     </li>
+
                     <li>
-                        <b>Referral Reward:</b> Refer a friend who joins as a member and get a <b>FREE 90-minute massage or facial</b>
-                    </li>
-                    <li>
-                        <b>Priority Booking:</b> Enjoy priority booking for peak times and exclusive treatments
+                        <b>Referral Reward:</b> Refer a friend who joins as a member and get <b>3 FREE 45-minute massage therapy sessions.</b>
                     </li>
                 </ul>
             </ul>
