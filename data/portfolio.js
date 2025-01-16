@@ -525,39 +525,39 @@ export const portfolios9 = [
 export const portfolios10 = [
     {
         id: 59,
-        imgSrc: "/assets/images/demo-strong/portfolio/Relaxation Therapies.jpg",
+        imgSrc: "/assets/images/demo-strong/portfolio/Party Divas (2).jpg",
         imgAlt: "Image Description",
-        title: "Relaxation Therapies",
+        title: "For the Party Divas",
     },
     {
         id: 60,
-        imgSrc: "/assets/images/demo-strong/portfolio/Stone Therapy.jpg",
+        imgSrc: "/assets/images/demo-strong/portfolio/New Moms.jpg",
         imgAlt: "Image Description",
-        title: "Stone Therapy",
+        title: "For New Moms, With Love",
     },
     {
         id: 61,
-        imgSrc: "/assets/images/demo-strong/portfolio/Stress Relief Packages.jpg",
+        imgSrc: "/assets/images/demo-strong/portfolio/Timeless Beauties.jpg",
         imgAlt: "Image Description",
-        title: "Stress Relief Packages",
+        title: "For the Timeless Beauties",
     },
     {
         id: 62,
-        imgSrc: "/assets/images/demo-strong/portfolio/AromaTherapy.jpg",
+        imgSrc: "/assets/images/demo-strong/portfolio/Corporate Queens.jpg",
         imgAlt: "Image Description",
-        title: "AromaTherapy",
+        title: "For the Corporate Queens",
     },
     {
         id: 63,
-        imgSrc: "/assets/images/demo-strong/portfolio/Reflexology.jpg",
+        imgSrc: "/assets/images/demo-strong/portfolio/Brides-to-Be.jpg",
         imgAlt: "Image Description",
-        title: "Reflexology",
+        title: "For the Brides-to-Be",
     },
     {
         id: 64,
-        imgSrc: "/assets/images/demo-strong/portfolio/Skincare Treatments.jpg",
+        imgSrc: "/assets/images/demo-strong/portfolio/Fitness Enthusiasts.jpg",
         imgAlt: "Image Description",
-        title: "Skincare Treatments",
+        title: "For the Fitness Enthusiasts",
     },
 ];
 

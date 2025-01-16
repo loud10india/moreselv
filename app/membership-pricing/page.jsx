@@ -1,6 +1,7 @@
 import Footer9 from "@/components/footers/Footer9";
 import Header10 from "@/components/headers/Header10";
 import Home8 from "@/components/homes/home-8";
+import Footer4 from "@/components/footers/Footer4";
 
 import { strongMultiPages } from "@/data/menu";
 import { portfolios10 } from "@/data/portfolio";
@@ -50,8 +51,11 @@ export default function MembershipAndPricing() {
                         </div>
                     </main>
 
-                    <footer className='footer-1 bg-dark-1 light-content'>
+                    {/* <footer className='footer-1 bg-dark-1 light-content'>
                         <Footer9 />
+                    </footer> */}
+                    <footer>
+                        <Footer4 />
                     </footer>
                 </div>
             </div>{" "}

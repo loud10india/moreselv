@@ -17,15 +17,15 @@ export const contactItems = [
             text: "Call now",
         },
     },
-    {
-        iconClass: "mi-location",
-        title: "Address",
-        text: "AVA Court, 3rd Floor, Near Park Hospital, Malibu Towne, Sector 47, Gurgaon",
-        link: {
-            url: "https://goo.gl/maps/7Vw1PBhxx5BaXStr8",
-            text: "See Map",
-            rel: "nofollow noopener",
-            target: "_blank",
-        },
-    },
+    // {
+    //     iconClass: "mi-location",
+    //     title: "Address",
+    //     text: "AVA Court, 3rd Floor, Near Park Hospital, Malibu Towne, Sector 47, Gurgaon",
+    //     link: {
+    //         url: "https://goo.gl/maps/7Vw1PBhxx5BaXStr8",
+    //         text: "See Map",
+    //         rel: "nofollow noopener",
+    //         target: "_blank",
+    //     },
+    // },
 ];

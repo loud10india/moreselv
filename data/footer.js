@@ -32,7 +32,7 @@ export const socialLinks = [
 
 export const socialMediaLinks = [
     {
-        href: "#",
+        href: "https://www.facebook.com/profile.php?id=100066464515801",
         title: "Facebook",
         iconClass: "fa-facebook-f",
         name: "Facebook",
@@ -43,12 +43,19 @@ export const socialMediaLinks = [
         iconClass: "fa-instagram",
         name: "Instagram",
     },
+    {
+        href: "https://www.linkedin.com/company/mor-selv/people/?viewAsMember=true",
+        title: "LinkedIn",
+        iconClass: "fa-linkedin",
+        name: "LinkedIn",
+    },
 ];
 
 export const navigationLinks = [
-    { href: "#about", text: "About" },
-    { href: "#services", text: "Services" },
-    { href: "#portfolio", text: "Portfolio" },
-    { href: "#blog", text: "Blog" },
-    { href: "#contact", text: "Contact" },
+    { href: "/about-us", text: "About" },
+    { href: "/services", text: "Services" },
+    { href: "/blog", text: "Blog" },
+    { href: "/book-appointment", text: "Contact" },
+    { href: "/privacy-policy", text: "Privacy Policy" },
+    { href: "/terms-and-conditions", text: "Terms" },
 ];

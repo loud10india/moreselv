@@ -11,12 +11,12 @@ export default function Blog() {
                 <div key={i} className='post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft' data-wow-delay={elm.delay}>
                     <div className='post-prev-container'>
                         <div className='post-prev-img'>
-                            <Link href={`${elm.id}`}>
+                            <div>
                                 <Image width={650} height={412} src={elm.imgSrc} alt='Add Image Description' />
-                            </Link>
+                            </div>
                         </div>
                         <h4 className='post-prev-title'>
-                            <Link href={`${elm.id}`}>{elm.title}</Link>
+                            <div>{elm.title}</div>
                         </h4>
                         <div className='post-prev-text'>{elm.text}</div>
                     </div>

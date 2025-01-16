@@ -11,7 +11,7 @@ export default function Header10({ links }) {
               If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
               image size for support of retina screens. See details in the template documentation. *) */}
             <div className='nav-logo-wrap local-scroll'>
-                <a href='#top' className='logo font-alt'>
+                <a href='/' className='logo font-alt'>
                     <Image src='/assets/images/demo-strong/mor-selv-logo.svg' alt='Your Company Logo' width={176} height={34} />
                 </a>
             </div>

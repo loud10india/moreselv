@@ -1,6 +1,6 @@
 import Footer9 from "@/components/footers/Footer9";
 import Header10 from "@/components/headers/Header10";
-
+import Footer4 from "@/components/footers/Footer4";
 import { strongMultiPages } from "@/data/menu";
 import { portfolios10 } from "@/data/portfolio";
 import dynamic from "next/dynamic";
@@ -55,7 +55,7 @@ export default function Services() {
                                         {portfolios10.map((item) => (
                                             <div className='col-md-6 mb-40' key={item.id}>
                                                 <div className='portfolio-4-item'>
-                                                    <Link href={`/strong-portfolio-single/${item.id}`}>
+                                                    <div>
                                                         <div className='portfolio-4-image'>
                                                             <Image src={item.imgSrc} width={902} height={564} alt={item.imgAlt} />
                                                         </div>
@@ -63,7 +63,7 @@ export default function Services() {
                                                             <h4 className='portfolio-4-title'>{item.title}</h4>
                                                             {/* <div className='portfolio-4-descr'>{item.description}</div> */}
                                                         </div>{" "}
-                                                    </Link>
+                                                    </div>
                                                 </div>
                                             </div>
                                         ))}
@@ -139,9 +139,11 @@ export default function Services() {
                             </section>
                         </>
                     </main>
-
-                    <footer className='footer-1 bg-dark-1 light-content'>
+                    {/* <footer className='footer-1 bg-dark-1 light-content'>
                         <Footer9 />
+                    </footer> */}
+                    <footer>
+                        <Footer4 />
                     </footer>
                 </div>
             </div>{" "}

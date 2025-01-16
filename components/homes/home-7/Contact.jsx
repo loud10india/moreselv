@@ -46,13 +46,13 @@ export default function Contact() {
                 {/* Right Column */}
                 <div className='col-lg-8 col-xl-7 offset-xl-1 d-flex align-items-strech'>
                     <div className=' round overflow-hidden w-100 px-4 py-5 p-sm-5' style={{ backgroundColor: "#ffeed9" }}>
-                        <div className='row'>
+                        {/* <div className='row'>
                             <div className='col-md-10 offset-md-1 col-xl-8 offset-xl-2'>
                                 <h4 className='section-descr-medium mt-n10 mb-30 text-center'>
                                     Drop us a line to get your next project started. We'd love to hear from you.
                                 </h4>
                             </div>
-                        </div>
+                        </div> */}
                         {/* Contact Form */}
                         <form onSubmit={(e) => e.preventDefault()} className='form contact-form' id='contact_form'>
                             <div className='row'>

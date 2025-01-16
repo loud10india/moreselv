@@ -37,6 +37,14 @@ export default function RootLayout({ children }) {
                 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
                 <link href='https://fonts.googleapis.com/css2?family=Alata&display=swap' rel='stylesheet' />
                 <link rel='icon' href='/favicon.ico' sizes='any' />
+                <link
+                    rel='stylesheet'
+                    href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=call'
+                />
+                <link
+                    rel='stylesheet'
+                    href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call'
+                />
             </head>
             <body className='appear-animate body'>
                 <MainLayout>

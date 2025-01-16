@@ -78,7 +78,7 @@ export default function Home10MainDemoMultiPage() {
                     {/* <footer className='footer-1 bg-dark-1 light-content' style={{ color: "#FECD8C" }}>
                         <Footer9 />
                     </footer> */}
-                    <footer className='footer-2 pb-50 '>
+                    <footer>
                         <Footer4 />
                     </footer>
                 </div>
