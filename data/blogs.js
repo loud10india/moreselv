@@ -304,6 +304,15 @@ export const blogs10 = [
         imgAlt: "Image Description",
         title: "The Science Behind Relaxation: How Spa Treatments Improve Mind, Body, and Soul",
         date: "December 3, 2024",
+        content: (
+            <p className='lead'>
+                "In the demanding world of corporate life, confidence is a cornerstone of professional success. It’s the aura that commands attention
+                in meetings, drives impactful decisions, and inspires colleagues. For corporate women aged 25-45, juggling multiple responsibilities
+                while striving for excellence, cultivating this confidence can be both a challenge and a necessity. Enter spa treatments—an underrated
+                yet transformative tool that goes beyond mere pampering to empower women with enhanced self-assurance and a polished professional
+                presence."
+            </p>
+        ),
     },
     {
         id: 26,
@@ -311,13 +320,17 @@ export const blogs10 = [
         imgAlt: "Image Description",
         title: "The Ultimate Guide to Spa Etiquette: Elevate Your Luxury Experience",
         date: "December 8, 2024",
+        content:
+            "In the demanding world of corporate life, confidence is a cornerstone of professional success. It’s the aura that commands attention in meetings, drives impactful decisions, and inspires colleagues. For corporate women aged 25-45, juggling multiple responsibilities while striving for excellence, cultivating this confidence can be both a challenge and a necessity. Enter spa treatments—an underrated yet transformative tool that goes beyond mere pampering to empower women with enhanced self-assurance and a polished professional presence.",
     },
     {
         id: 27,
         imgSrc: "/assets/images/demo-modern/blog/3.jpg",
         imgAlt: "Image Description",
         title: "Seasonal Treatments: Rejuvenate Your Skin and Body Throughout the Year",
-        date: "December 15, 2024",
+        date: "December 15, 204",
+        content:
+            "In the demanding world of corporate life, confidence is a cornerstone of professional success. It’s the aura that commands attention in meetings, drives impactful decisions, and inspires colleagues. For corporate women aged 25-45, juggling multiple responsibilities while striving for excellence, cultivating this confidence can be both a challenge and a necessity. Enter spa treatments—an underrated yet transformative tool that goes beyond mere pampering to empower women with enhanced self-assurance and a polished professional presence.",
     },
     {
         id: 28,
@@ -325,6 +338,8 @@ export const blogs10 = [
         imgAlt: "Image Description",
         title: "The Power of Relaxation: How Wellness Therapies Enhance Productivity and Well-Being for Corporate Women",
         date: "December 26, 2024",
+        content:
+            "In the demanding world of corporate life, confidence is a cornerstone of professional success. It’s the aura that commands attention in meetings, drives impactful decisions, and inspires colleagues. For corporate women aged 25-45, juggling multiple responsibilities while striving for excellence, cultivating this confidence can be both a challenge and a necessity. Enter spa treatments—an underrated yet transformative tool that goes beyond mere pampering to empower women with enhanced self-assurance and a polished professional presence.",
     },
     {
         id: 29,
@@ -332,6 +347,8 @@ export const blogs10 = [
         imgAlt: "Image Description",
         title: "Reclaiming Balance: Why Spa Therapies are Essential for the Health of Corporate Working Women",
         date: "January 2, 2025",
+        content:
+            "In the demanding world of corporate life, confidence is a cornerstone of professional success. It’s the aura that commands attention in meetings, drives impactful decisions, and inspires colleagues. For corporate women aged 25-45, juggling multiple responsibilities while striving for excellence, cultivating this confidence can be both a challenge and a necessity. Enter spa treatments—an underrated yet transformative tool that goes beyond mere pampering to empower women with enhanced self-assurance and a polished professional presence.",
     },
     {
         id: 29,
@@ -339,6 +356,8 @@ export const blogs10 = [
         imgAlt: "Image Description",
         title: "Radiate Confidence: The Role of Spa Treatments in Boosting Professional Presence for Corporate Women",
         date: "January 12, 2025",
+        content:
+            "In the demanding world of corporate life, confidence is a cornerstone of professional success. It’s the aura that commands attention in meetings, drives impactful decisions, and inspires colleagues. For corporate women aged 25-45, juggling multiple responsibilities while striving for excellence, cultivating this confidence can be both a challenge and a necessity. Enter spa treatments—an underrated yet transformative tool that goes beyond mere pampering to empower women with enhanced self-assurance and a polished professional presence.",
     },
 ];
 

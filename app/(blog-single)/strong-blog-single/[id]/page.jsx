@@ -42,96 +42,26 @@ export default function StrongBlogSinglePage({ params }) {
                                             <AnimatedText text={blog.title || blog.postTitle} />
                                         </span>
                                     </h1>
-                                    {/* <div className='blog-item-data mt-30 mt-sm-10 mb-0 wow fadeInUp' data-wow-delay='0.2s'>
-                                        <div className='d-inline-block me-3'>
-                                            <a href='#'>
-                                                <i className='mi-clock size-16' />
-                                                <span className='visually-hidden'>Date:</span> December 25
-                                            </a>
-                                        </div>
-                                        <div className='d-inline-block me-3'>
-                                            <a href='#'>
-                                                <i className='mi-user size-16' />
-                                                <span className='visually-hidden'>Author:</span> John Doe
-                                            </a>
-                                        </div>
-                                        <div className='d-inline-block me-3'>
-                                            <i className='mi-folder size-16' />
-                                            <span className='visually-hidden'>Categories:</span>
-                                            <a href='#'>Design</a>, <a href='#'>Branding</a>
-                                        </div>
-                                        <div className='d-inline-block me-3'>
-                                            <a href='#'>
-                                                <i className='mi-message size-16' /> 5 Comments
-                                            </a>
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
                         </ParallaxContainer>
                         <>
-                            {/* Section */}
                             <section className='page-section'>
                                 <div className='container relative'>
                                     <div className='row'>
-                                        {/* Content */}
                                         <div className='col-lg-10 offset-lg-1 col-xl-8 offset-xl-2'>
-                                            {/* Post */}
+                                            {/* Blog Content */}
                                             <div className='blog-item mb-80 mb-xs-40'>
                                                 <div className='blog-item-body'>
+                                                    {/* Display Image */}
                                                     <div className='mb-40 mb-xs-30'>
-                                                        <Image
-                                                            src='/assets/images/demo-bold/portfolio/4.jpg'
-                                                            alt='Image Description'
-                                                            width={1200}
-                                                            height={819}
-                                                        />
+                                                        <Image src={blog.imgSrc} alt={blog.imgAlt} width={1200} height={819} />
                                                     </div>
-                                                    <p>
-                                                        Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id
-                                                        sapien tempor molestie in nec massa. Fusce non ante sed lorem rutrum feugiat. Lorem ipsum
-                                                        dolor sit amet, consectetur adipiscing elit. Mauris non laoreet dui. Morbi lacus massa,
-                                                        euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor
-                                                        molestie in nec massa.
-                                                    </p>
-                                                    <p>
-                                                        Fusce non ante sed lorem rutrum feugiat. Vestibulum pellentesque, purus ut&nbsp;dignissim
-                                                        consectetur, nulla erat ultrices purus, ut&nbsp;consequat sem elit non sem. Morbi lacus massa,
-                                                        euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor
-                                                        molestie in nec massa. Fusce non ante sed lorem rutrum feugiat.
-                                                    </p>
-                                                    <blockquote>
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a&nbsp;ante.
-                                                            Vestibulum pellentesque, purus ut dignissim consectetur, nulla erat ultrices purus.
-                                                        </p>
-                                                        <footer>
-                                                            Someone famous in
-                                                            <cite title='Source Title'> Source Title </cite>
-                                                        </footer>
-                                                    </blockquote>
-                                                    <p>
-                                                        Praesent ultricies ut ipsum non laoreet. Nunc ac
-                                                        <a href='#'>ultricies</a> leo. Nulla ac ultrices arcu. Nullam adipiscing lacus in consectetur
-                                                        posuere. Nunc malesuada tellus turpis, ac pretium orci molestie vel. Morbi lacus massa,
-                                                        euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor
-                                                        molestie in nec massa. Fusce non ante sed lorem rutrum feugiat.
-                                                    </p>
-                                                    <ul>
-                                                        <li>First item of the list</li>
-                                                        <li>Second item of the list</li>
-                                                        <li>Third item of the list</li>
-                                                    </ul>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non laoreet dui. Morbi lacus
-                                                        massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor
-                                                        molestie in nec massa. Fusce non ante sed lorem rutrum feugiat. Vestibulum pellentesque, purus
-                                                        ut&nbsp;dignissim consectetur, nulla erat ultrices purus, ut&nbsp;consequat sem elit non sem.
-                                                    </p>
+                                                    {/* Display Content */}
+                                                    <p>{blog.content}</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* End Content */}
                                     </div>
                                 </div>
                             </section>
