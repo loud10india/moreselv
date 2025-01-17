@@ -38,7 +38,7 @@ export default function StrongBlogSinglePage({ params }) {
                             <div className='container position-relative pt-sm-30'>
                                 <div className='home-content text-center'>
                                     <h1 className='section-title-medium mb-0'>
-                                        <span className='wow charsAnimIn' data-splitting='chars'>
+                                        <span className='wow charsAnimIn' data-splitting='chars' style={{ color: "#EBBA78" }}>
                                             <AnimatedText text={blog.title || blog.postTitle} />
                                         </span>
                                     </h1>

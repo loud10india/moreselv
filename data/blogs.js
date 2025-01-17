@@ -482,7 +482,7 @@ export const blogs10 = [
         content: (
             <div>
                 <div>
-                    <p>
+                    <p className='lead'>
                         A day at the spa is the ultimate indulgence—a time to relax, recharge, and reconnect with yourself. At Mor-selv, Gurugram's
                         premier luxury spa for women, we’ve curated this guide to ensure your visit is smooth, serene, and truly luxurious. Whether
                         you’re a seasoned spa-goer or a first-timer, these tips will help you make the most of your experience while embracing the
@@ -633,7 +633,7 @@ export const blogs10 = [
         content: (
             <div>
                 <div>
-                    <p>
+                    <p className='lead'>
                         Our skin and body, much like nature, change with the seasons. Each transition—from the warmth of summer to the crispness of
                         winter—brings unique challenges and opportunities for renewal. At Mor-Selv, we believe in harmonizing wellness practices with
                         the rhythms of nature, offering bespoke seasonal treatments to help you look and feel your best year-round.
@@ -949,7 +949,7 @@ export const blogs10 = [
         content: (
             <div>
                 <div>
-                    <p>
+                    <p className='lead'>
                         The corporate world is synonymous with ambition, innovation, and relentless drive. Yet, beneath the success stories of
                         high-powered boardrooms and career milestones lies a quieter, pervasive reality: burnout. For many corporate working women,
                         the pressure to excel professionally while managing personal responsibilities creates a perfect storm of stress and
