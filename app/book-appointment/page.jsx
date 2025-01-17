@@ -8,11 +8,18 @@ import { portfolios10 } from "@/data/portfolio";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { Alata } from "next/font/google";
+
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
 const dark = false;
 const onePage = false;
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: "Contact Mor-Selv: Book Your Women’s Wellness Session",
     description: "Get in touch with Mor-Selv for bookings, inquiries, or memberships.",
@@ -36,11 +43,13 @@ export default function BookAppointment() {
                             <div className='container position-relative pt-sm-30'>
                                 {/* Home Section Content */}
                                 <div className='home-content text-center'>
-                                    <h1 className='hs-title-7 mb-0'>
-                                        <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            Book an Appointment
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='hs-title-7 mb-0'>
+                                            <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
+                                                Book an Appointment
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                                 {/* End Home Section Content */}
                             </div>

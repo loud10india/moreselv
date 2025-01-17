@@ -8,11 +8,18 @@ import { portfolios10 } from "@/data/portfolio";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { Alata } from "next/font/google";
+
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
 const dark = false;
 const onePage = false;
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: "About Mor-Selv: Redefining Women’s Wellness & Spa Services",
     description:
@@ -40,11 +47,17 @@ export default function MembershipAndPricing() {
                             <div className='container position-relative pt-sm-30'>
                                 {/* Home Section Content */}
                                 <div className='home-content text-center'>
-                                    <h1 className='hs-title-7 mb-0'>
-                                        <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            About us
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='hs-title-7 mb-0'>
+                                            <span
+                                                className='wow charsAnimIn-2'
+                                                data-splitting='chars'
+                                                style={{ color: "#EBBA78", fontWeight: "400" }}
+                                            >
+                                                About us
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                                 {/* End Home Section Content */}
                             </div>
@@ -100,11 +113,6 @@ export default function MembershipAndPricing() {
                                                 and nurturing environment where you can truly unwind—free from distractions and expectations.
                                             </p>
                                         </div>
-                                        {/* <div className='local-scroll wow fadeInUp' data-wow-offset={0}>
-                                            <Link href={`/main-pages-services-1`} className='btn btn-mod btn-large btn-round btn-hover-anim'>
-                                                <span>Our Services</span>
-                                            </Link>
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -128,9 +136,11 @@ export default function MembershipAndPricing() {
                                         </div>
                                         {/* End Decorative Dots */}
                                         <div>
-                                            <h2 className='section-title mb-30' style={{ color: "#EBBA78" }}>
-                                                The <span className='font-alt'>Meaning Behind</span> <b>Mor-Selv</b>.
-                                            </h2>
+                                            <div className={alata.className}>
+                                                <h2 className='section-title mb-30' style={{ color: "#EBBA78", fontWeight: "400" }}>
+                                                    The <span className='font-alt'>Meaning Behind</span> <b>Mor-Selv</b>.
+                                                </h2>
+                                            </div>
                                             <p className='mb-50'>
                                                 The name <b>Mor-Selv</b> is a fusion of two powerful words: <b>“Mor”</b>, which means “mother” in
                                                 several languages, symbolizing care, nurturing, and unconditional love, and <b>“Selv”</b>, meaning
@@ -152,16 +162,6 @@ export default function MembershipAndPricing() {
                                             src='/assets/images/demo-strong/Best Wellness Center for Women in Gurgaon.jpg'
                                             alt='Image Description'
                                         />
-                                        {/* Circle Text */}
-                                        {/* <div className='position-absolute bottom-0 start-0 ps-4 pb-4 d-none d-sm-block'>
-                                            <Image
-                                                src='/assets/images/demo-strong/circle-text.svg'
-                                                width={138}
-                                                height={138}
-                                                alt='Image Description'
-                                            />
-                                        </div> */}
-                                        {/* End Circle Text */}
                                     </div>
                                 </div>
                             </div>{" "}

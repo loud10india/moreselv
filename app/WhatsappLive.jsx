@@ -5,7 +5,7 @@ import React from "react";
 import "./global.css";
 
 const WhatsappLive = () => {
-    const whatsappNumber = "9818296300";
+    const whatsappNumber = "9818257300";
     const baseURL = "https://api.whatsapp.com/send/";
     const encodedMessage = "Hey! I'm interested in knowing more about your services. Please help me with my questions";
     const whatsappLink = `${baseURL}?phone=${whatsappNumber}&text=${encodedMessage}&type=phone_number&app_absent=0`;

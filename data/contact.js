@@ -11,9 +11,9 @@ export const contactItems = [
     {
         iconClass: "mi-mobile",
         title: "Phone",
-        text: "+91 9818296300",
+        text: "+91 9818257300",
         link: {
-            url: "tel:+91 9818296300",
+            url: "tel:+91 9818257300",
             text: "Call now",
         },
     },

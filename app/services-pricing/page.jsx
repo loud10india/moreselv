@@ -6,11 +6,19 @@ import { portfolios10 } from "@/data/portfolio";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { Alata } from "next/font/google";
+
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
 const dark = false;
 const onePage = false;
+
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: "Wellness Services for Women: Relax, Rejuvenate & Glow",
     description:
@@ -35,11 +43,17 @@ export default function Services() {
                             <div className='container position-relative pt-sm-30'>
                                 {/* Home Section Content */}
                                 <div className='home-content text-center'>
-                                    <h1 className='hs-title-7 mb-0'>
-                                        <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            Services
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='hs-title-7 mb-0'>
+                                            <span
+                                                className='wow charsAnimIn-2'
+                                                data-splitting='chars'
+                                                style={{ color: "#EBBA78", fontWeight: "400" }}
+                                            >
+                                                Services & Pricing
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                                 {/* End Home Section Content */}
                             </div>
@@ -80,11 +94,16 @@ export default function Services() {
                                 <div className='container'>
                                     <div className='row'>
                                         <div className='col-lg-6 mb-md-40 mb-sm-30'>
-                                            <h2 className='section-title-strong mt-n20 mb-40 mb-sm-30' style={{ color: "#EBBA78" }}>
-                                                Best
-                                                <span className='font-alt'> Wellness Center for</span> <span className='font-alt'>Women in </span>
-                                                Gurgaon
-                                            </h2>
+                                            <div className={alata.className}>
+                                                <h2
+                                                    className='section-title-strong mt-n20 mb-40 mb-sm-30'
+                                                    style={{ color: "#EBBA78", fontWeight: "400" }}
+                                                >
+                                                    Best
+                                                    <span className='font-alt'> Wellness Center for</span> <span className='font-alt'>Women in </span>
+                                                    Gurgaon
+                                                </h2>
+                                            </div>
                                             <div className='local-scroll'>
                                                 <Link href='/book-appointment' className='btn btn-mod btn-large btn-round btn-hover-anim'>
                                                     <span>Book an Appointment</span>

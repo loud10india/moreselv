@@ -13,11 +13,17 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import Form7 from "@/components/newsletterForms/Form7";
+import { Alata } from "next/font/google";
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
 const dark = false;
 const onePage = false;
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: "Home 10 Blog || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
     description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
@@ -40,11 +46,17 @@ export default function StrongBlogPage() {
                         >
                             <div className='container position-relative pt-sm-30'>
                                 <div className='home-content text-center'>
-                                    <h1 className='hs-title-7 mb-0'>
-                                        <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            Our Blogs
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='hs-title-7 mb-0'>
+                                            <span
+                                                className='wow charsAnimIn-2'
+                                                data-splitting='chars'
+                                                style={{ color: "#EBBA78", fontWeight: "400" }}
+                                            >
+                                                Our Blogs
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                             </div>
                         </ParallaxContainer>
@@ -63,7 +75,7 @@ export default function StrongBlogPage() {
                                                     {" "}
                                                     <Link href={`/strong-blog-single/${post.id}`}>{post.title}</Link>
                                                 </h3>
-                                                <div className='post-prev-2-info'>{post.date}</div>
+                                                {/* <div className='post-prev-2-info'>{post.date}</div> */}
                                             </div>
                                         ))}
                                     </div>

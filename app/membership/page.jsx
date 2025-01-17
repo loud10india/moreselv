@@ -2,6 +2,7 @@ import Footer9 from "@/components/footers/Footer9";
 import Header10 from "@/components/headers/Header10";
 import Home8 from "@/components/homes/home-8";
 import Footer4 from "@/components/footers/Footer4";
+import { Alata } from "next/font/google";
 
 import { strongMultiPages } from "@/data/menu";
 import { portfolios10 } from "@/data/portfolio";
@@ -13,6 +14,11 @@ const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxCont
 });
 const dark = false;
 const onePage = false;
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: "Exclusive Spa Memberships for Women at Mor-Selv",
     description:
@@ -37,11 +43,17 @@ export default function MembershipAndPricing() {
                             <div className='container position-relative pt-sm-30'>
                                 {/* Home Section Content */}
                                 <div className='home-content text-center'>
-                                    <h1 className='hs-title-7 mb-0'>
-                                        <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            Membership & Pricing
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='hs-title-7 mb-0'>
+                                            <span
+                                                className='wow charsAnimIn-2'
+                                                data-splitting='chars'
+                                                style={{ color: "#EBBA78", fontWeight: "400" }}
+                                            >
+                                                Membership
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                                 {/* End Home Section Content */}
                             </div>

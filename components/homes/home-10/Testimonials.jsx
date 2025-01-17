@@ -36,7 +36,7 @@ export default function Testimonials() {
                 {/* Team item */}
                 {testimonials3.map((elm, i) => (
                     <SwiperSlide className='owl-item' key={i}>
-                        <div className='testimonials-3-item '>
+                        <div className='testimonials-3-item ' style={{ width: "350px", height: "400px" }}>
                             <div className='testimonials-3-icon'>
                                 <i className='icon-quotation-mark' aria-hidden='true'></i>
                             </div>

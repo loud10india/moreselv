@@ -1,8 +1,8 @@
 export const strongMultiPages = [
     { href: "/", text: "Home" },
     { href: "/about-us", text: "About Us", className: "active" },
-    { href: "/services", text: "Services" },
-    { href: "/membership-pricing", text: "Membership & Pricing" },
+    { href: "/services-pricing", text: "Services & Pricing" },
+    { href: "/membership", text: "Membership" },
 ];
 export const strongMultiPagesDark = [
     { href: "/strong-multi-page-dark", text: "Home" },

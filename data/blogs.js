@@ -300,10 +300,10 @@ export const blogs9 = [
 export const blogs10 = [
     {
         id: 25,
-        imgSrc: "/assets/images/demo-modern/blog/1.jpg",
+        imgSrc: "/assets/images/demo-modern/Reflexology.jpg",
         imgAlt: "Image Description",
         title: "The Science Behind Relaxation: How Spa Treatments Improve Mind, Body, and Soul",
-        date: "December 3, 2024",
+        // date: "December 3, 2024",
         content: (
             <div>
                 <div>
@@ -475,10 +475,10 @@ export const blogs10 = [
     },
     {
         id: 26,
-        imgSrc: "/assets/images/demo-modern/blog/2.jpg",
+        imgSrc: "/assets/images/demo-modern/Skincare Treatments.jpg",
         imgAlt: "Image Description",
         title: "The Ultimate Guide to Spa Etiquette: Elevate Your Luxury Experience",
-        date: "December 8, 2024",
+        // date: "December 8, 2024",
         content: (
             <div>
                 <div>
@@ -626,10 +626,10 @@ export const blogs10 = [
     },
     {
         id: 27,
-        imgSrc: "/assets/images/demo-modern/blog/3.jpg",
+        imgSrc: "/assets/images/demo-modern/Stone Therapy.jpg",
         imgAlt: "Image Description",
         title: "Seasonal Treatments: Rejuvenate Your Skin and Body Throughout the Year",
-        date: "December 15, 204",
+        // date: "December 15, 204",
         content: (
             <div>
                 <div>
@@ -793,10 +793,10 @@ export const blogs10 = [
     },
     {
         id: 28,
-        imgSrc: "/assets/images/demo-modern/blog/5.jpg",
+        imgSrc: "/assets/images/demo-modern/Stress Relief Packages.jpg",
         imgAlt: "Image Description",
         title: "The Power of Relaxation: How Wellness Therapies Enhance Productivity and Well-Being for Corporate Women",
-        date: "December 26, 2024",
+        // date: "December 26, 2024",
         content: (
             <div>
                 <div>
@@ -942,10 +942,10 @@ export const blogs10 = [
     },
     {
         id: 29,
-        imgSrc: "/assets/images/demo-modern/blog/6.jpg",
+        imgSrc: "/assets/images/demo-modern/AromaTherapy.jpg",
         imgAlt: "Image Description",
         title: "Reclaiming Balance: Why Spa Therapies are Essential for the Health of Corporate Working Women",
-        date: "January 2, 2025",
+        // date: "January 2, 2025",
         content: (
             <div>
                 <div>
@@ -1102,10 +1102,10 @@ export const blogs10 = [
     },
     {
         id: 30,
-        imgSrc: "/assets/images/demo-modern/blog/6.jpg",
+        imgSrc: "/assets/images/demo-modern/Relaxation Therapies.jpg",
         imgAlt: "Image Description",
         title: "Radiate Confidence: The Role of Spa Treatments in Boosting Professional Presence for Corporate Women",
-        date: "January 12, 2025",
+        // date: "January 12, 2025",
         content: (
             <div>
                 <div>

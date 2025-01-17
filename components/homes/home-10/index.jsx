@@ -105,10 +105,12 @@ export default function Home10({ onePage = false, dark = false }) {
                             </div>
                             {/* End Decorative Dots */}
                             <div>
-                                <h2 className='section-title mb-30' style={{ color: "#FECD8C" }}>
-                                    Prioritize Your <span className='font-alt'>Wellness, </span>Rejuvenate Your <span className='font-alt'>Soul</span>{" "}
-                                    .
-                                </h2>
+                                <div className={alata.className}>
+                                    <h2 className='section-title mb-30' style={{ color: "#FECD8C", fontWeight: "400" }}>
+                                        Prioritize Your <span className='font-alt'>Wellness, </span>Rejuvenate Your{" "}
+                                        <span className='font-alt'>Soul</span> .
+                                    </h2>
+                                </div>
                                 <p className='mb-50'>
                                     In the hustle of everyday life, taking time for yourself isn’t a luxury—it’s a necessity. Spa services go beyond
                                     relaxation; they are essential for maintaining physical, mental, and emotional well-being.

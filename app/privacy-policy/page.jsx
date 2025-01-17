@@ -9,11 +9,18 @@ import { portfolios10 } from "@/data/portfolio";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { Alata } from "next/font/google";
+
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
 const dark = false;
 const onePage = false;
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: " Privacy Policy: Your Data at Mor-Selv",
     description:
@@ -41,11 +48,17 @@ export default function PrivacyAndPolicy() {
                             <div className='container position-relative pt-sm-30'>
                                 {/* Home Section Content */}
                                 <div className='home-content text-center'>
-                                    <h1 className='hs-title-7 mb-0'>
-                                        <span className='wow charsAnimIn-2' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            Privacy & Policy
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='hs-title-7 mb-0'>
+                                            <span
+                                                className='wow charsAnimIn-2'
+                                                data-splitting='chars'
+                                                style={{ color: "#EBBA78", fontWeight: "400" }}
+                                            >
+                                                Privacy & Policy
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                                 {/* End Home Section Content */}
                             </div>
@@ -151,7 +164,7 @@ export default function PrivacyAndPolicy() {
                                                         <b>Email:</b> info@morselv.com
                                                     </li>
                                                     <li>
-                                                        <b>Phone:</b> 9818296300
+                                                        <b>Phone:</b> +91-9818257300
                                                     </li>
                                                     <li>
                                                         <b>Address:</b> Mor-Selv Wellness Center, AVA Court, Malibu Towne, Gurgaon
@@ -172,10 +185,6 @@ export default function PrivacyAndPolicy() {
                             </div>
                         </section>
                     </main>
-
-                    {/* <footer className='footer-1 bg-dark-1 light-content'>
-                        <Footer9 />
-                    </footer> */}
                     <footer>
                         <Footer4 />
                     </footer>

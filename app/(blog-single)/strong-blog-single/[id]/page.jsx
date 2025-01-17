@@ -9,11 +9,15 @@ import { strongMultiPages } from "@/data/menu";
 import { allBlogs } from "@/data/blogs";
 import dynamic from "next/dynamic";
 import Footer4 from "@/components/footers/Footer4";
-
+import { Alata } from "next/font/google";
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
 });
-
+const alata = Alata({
+    weight: "400",
+    subsets: ["latin"],
+    display: "swap",
+});
 export const metadata = {
     title: "Home 10 Blog Single || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
     description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
@@ -37,11 +41,13 @@ export default function StrongBlogSinglePage({ params }) {
                         >
                             <div className='container position-relative pt-sm-30'>
                                 <div className='home-content text-center'>
-                                    <h1 className='section-title-medium mb-0'>
-                                        <span className='wow charsAnimIn' data-splitting='chars' style={{ color: "#EBBA78" }}>
-                                            <AnimatedText text={blog.title || blog.postTitle} />
-                                        </span>
-                                    </h1>
+                                    <div className={alata.className}>
+                                        <h1 className='section-title-medium mb-0'>
+                                            <span className='wow charsAnimIn' data-splitting='chars' style={{ color: "#EBBA78", fontWeight: "400" }}>
+                                                <AnimatedText text={blog.title || blog.postTitle} />
+                                            </span>
+                                        </h1>
+                                    </div>
                                 </div>
                             </div>
                         </ParallaxContainer>

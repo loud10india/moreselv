@@ -13,7 +13,7 @@ export default function Footer4() {
                     </a>
                 </div>
                 {/* End Back to Top Link */}
-                <div className='page-section'>
+                <div className='page-section' style={{ paddingTop: "100px", paddingBottom: "40px" }}>
                     <div className='row'>
                         <div className='col-lg-8 mb-md-60'>
                             <h1 style={{ fontSize: "36px" }}>BOOK YOUR WELLNESS JOURNEY</h1>
