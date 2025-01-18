@@ -55,7 +55,7 @@ export default function PrivacyAndPolicy() {
                                                 data-splitting='chars'
                                                 style={{ color: "#EBBA78", fontWeight: "400" }}
                                             >
-                                                Privacy & Policy
+                                                Privacy Policy
                                             </span>
                                         </h1>
                                     </div>

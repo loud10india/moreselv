@@ -28,8 +28,8 @@ export default function Portfolio() {
                         and preferences, ensuring you receive the most beneficial and enjoyable treatment possible.
                     </p>
                 </div>
+                <Home1 />
             </div>
-            <Home1 />
         </div>
     );
 }

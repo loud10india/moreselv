@@ -25,8 +25,8 @@ const alata = Alata({
     display: "swap",
 });
 export const metadata = {
-    title: "Home 10 Blog || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-    description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Mor-Selv | our blogs",
+    description: "Mor-Selv | our blogs",
 };
 export default function StrongBlogPage() {
     return (

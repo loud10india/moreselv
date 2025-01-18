@@ -148,7 +148,8 @@ export default function TermsAndConditions() {
                                                         <b>Phone:</b> 9818296300
                                                     </li>
                                                     <li>
-                                                        <b>Address:</b> Mor-Selv Wellness Center, AVA Court, Malibu Towne, Gurgaon
+                                                        <b>Address:</b> Mor-Selv, AltF Coworking, Suncity Success Tower, Sector 65,
+                                                        Gurugram, Haryana 122005
                                                     </li>
                                                 </ul>
                                                 <p>

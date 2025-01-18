@@ -78,25 +78,6 @@ export default function Contact() {
                             </div>
                             <div className='row'>
                                 <div className='col-md-6'>
-                                    {/* Email */}
-                                    <div className='form-group'>
-                                        <label htmlFor='email'>Email</label>
-                                        <div className=' round' style={{ backgroundColor: "#EBBA78" }}>
-                                            <input
-                                                type='email'
-                                                name='email'
-                                                id='email'
-                                                className='input-md input-grad round form-control'
-                                                placeholder='Enter your email'
-                                                pattern='.{5,100}'
-                                                required
-                                                aria-required='true'
-                                            />
-                                        </div>
-                                    </div>
-                                    {/* End Email */}
-                                </div>
-                                <div className='col-md-6'>
                                     {/* Mobile Number */}
                                     <div className='form-group'>
                                         <label htmlFor='mobile'>Phone</label>
@@ -114,6 +95,25 @@ export default function Contact() {
                                         </div>
                                     </div>
                                     {/* End Mobile Number */}
+                                </div>
+                                <div className='col-md-6'>
+                                    {/* Email */}
+                                    <div className='form-group'>
+                                        <label htmlFor='email'>Email</label>
+                                        <div className=' round' style={{ backgroundColor: "#EBBA78" }}>
+                                            <input
+                                                type='email'
+                                                name='email'
+                                                id='email'
+                                                className='input-md input-grad round form-control'
+                                                placeholder='Enter your email'
+                                                pattern='.{5,100}'
+                                                required
+                                                aria-required='true'
+                                            />
+                                        </div>
+                                    </div>
+                                    {/* End Email */}
                                 </div>
                             </div>
                             {/* Message */}

@@ -1,20 +1,20 @@
 export const contactItems = [
     {
-        iconClass: "mi-email",
-        title: "Email",
-        text: "hello@morselv.com",
-        link: {
-            url: "mailto:hello@morselv.com",
-            text: "Say Hello",
-        },
-    },
-    {
         iconClass: "mi-mobile",
         title: "Phone",
         text: "+91 9818257300",
         link: {
             url: "tel:+91 9818257300",
             text: "Call now",
+        },
+    },
+    {
+        iconClass: "mi-email",
+        title: "Email",
+        text: "hello@morselv.com",
+        link: {
+            url: "mailto:hello@morselv.com",
+            text: "Say Hello",
         },
     },
     // {
