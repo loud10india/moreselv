@@ -50,10 +50,10 @@ export default function Home10({ onePage = false, dark = false }) {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
-                            <h2 className='section-caption-border'>About Us</h2>
+                            {/* <h2 className='section-caption-border'>About Us</h2> */}
                             <div className={alata.className}>
                                 <h3 className='section-title-strong mb-90 mb-sm-50' style={{ color: "#EBBA78", fontWeight: "500" }}>
-                                    Hey <span className='font-alt'>Gorgeous!</span>
+                                    Hey Gorgeous!
                                 </h3>
                             </div>
                         </div>
@@ -65,13 +65,11 @@ export default function Home10({ onePage = false, dark = false }) {
                                 <p className='lead mt-0'>
                                     At Mor-selv, we believe that true well-being is a journey of self-discovery, a harmonious balance of mind, body,
                                     and spirit. We understand the unique challenges women face in today's world – juggling demanding careers,
-                                    nurturing families, and navigating the complexities of modern life. This constant striving can leave us feeling
-                                    depleted, stressed, and disconnected from ourselves.
+                                    nurturing families, and navigating the complexities of modern life.
                                 </p>
                                 <p style={{ fontSize: "1.1em" }}>
                                     Mor-selv is a sanctuary exclusively for women, a haven of tranquility where you can escape the pressures of daily
-                                    life and rediscover your inner peace. We are dedicated to empowering women to achieve holistic well-being through
-                                    a range of personalized wellness services.
+                                    life and rediscover your inner peace.
                                 </p>
                                 {/* <p style={{ fontSize: "1.1em" }}>Your wellness journey begins here.</p> */}
                             </div>
@@ -145,7 +143,7 @@ export default function Home10({ onePage = false, dark = false }) {
                         <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
                             <div className={alata.className}>
                                 <h2 className='section-title-strong mb-40' style={{ color: "#EBBA78", fontWeight: "500" }}>
-                                    Loved by <span className='font-alt'>Women</span> Like You
+                                    Loved by Women Like You
                                 </h2>
                             </div>
                             <p className='mb-0'>

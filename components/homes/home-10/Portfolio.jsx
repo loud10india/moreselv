@@ -19,16 +19,13 @@ export default function Portfolio() {
                     <h2 className='section-caption-border'>Our Services</h2>
                     <div className={alata.className}>
                         <h3 className='section-title-strong mb-40' style={{ color: "#EBBA78", fontWeight: "500" }}>
-                            A <span className='font-alt'> Personalized Approach</span> to Wellness
+                            A Personalized Approach to Wellness
                         </h3>
                     </div>
                     <p className='mb-0'>
                         At Mor-selv, every detail is crafted with care. Our skilled therapists offer a range of professional massage therapies, from
                         deeply relaxing Swedish massages to invigorating deep tissue treatments. Each experience is tailored to your individual needs
-                        and preferences, ensuring you receive the most beneficial and enjoyable treatment possible.We understand that every woman is
-                        unique, and we are committed to providing personalized care that addresses your specific needs and concerns. Our focus is on
-                        creating a truly exceptional experience, from the moment you step through our doors to the moment you leave feeling
-                        refreshed and renewed.
+                        and preferences, ensuring you receive the most beneficial and enjoyable treatment possible.
                     </p>
                 </div>
             </div>

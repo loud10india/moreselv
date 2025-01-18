@@ -1471,7 +1471,7 @@ export const blogs13 = [
 export const blogs14 = [
     {
         id: 59,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-1.jpg",
+        imgSrc: "/assets/images/demo-fancy/AromaTherapy.jpg",
         imgAlt: "Add Image Description",
         title: "Traditional Thai Yoga Massage Therapy",
         text: "Experience this ancient therapy combining acupressure, gentle stretching, and yoga-inspired movements to release tension and improve flexibility. Perfect for rebalancing energy and restoring vitality",
@@ -1482,7 +1482,7 @@ export const blogs14 = [
         id: 60,
         imgSrc: "/assets/images/demo-fancy/blog/post-prev-2.jpg",
         imgAlt: "Add Image Description",
-        title: "Fitness Enthusiasts and Timeless Beauties",
+        title: "Shiatsu Massage Therapy",
         text: "A Japanese technique using finger pressure to target energy pathways, promoting relaxation and healing. Ideal for reducing stress and enhancing overall well-being.",
         recommendedfor: "Corporate Queens and Party Divas",
         pricing: "₹4,000 (60 minutes) | ₹5,000 (90 minutes)",
