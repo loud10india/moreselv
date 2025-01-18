@@ -111,8 +111,7 @@ export default function Home10MainDemoMultiPage() {
                         <ParallaxContainer
                             className='home-section bg-dark-alpha-30 light-content parallax-5 scrollSpysection'
                             style={{
-                                backgroundImage: "url(/assets/images/demo-strong/mor-selv.jpg)",
-                                height: "90vh",
+                                backgroundImage: "url(/assets/images/demo-strong/banner-v2.jpg)",
                             }}
                             id='home'
                         >

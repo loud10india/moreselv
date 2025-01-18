@@ -1,8 +1,4 @@
-import Footer9 from "@/components/footers/Footer9";
 import Header10 from "@/components/headers/Header10";
-import Home8 from "@/components/homes/home-8";
-import { featuresListData } from "@/data/features";
-import Contact from "@/components/homes/home-7/Contact";
 import Footer4 from "@/components/footers/Footer4";
 import { strongMultiPages } from "@/data/menu";
 import { portfolios10 } from "@/data/portfolio";
@@ -37,7 +33,9 @@ export default function TermsAndConditions() {
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
                                 backgroundImage: "url(/assets/images/demo-strong/mor-selv.jpg)",
-                                height: "90vh",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
                             }}
                             id='home'
                         >

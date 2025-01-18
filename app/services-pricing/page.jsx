@@ -39,7 +39,9 @@ export default function Services() {
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
                                 backgroundImage: "url(/assets/images/demo-strong/mor-selv.jpg)",
-                                height: "90vh",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
                             }}
                             id='home'
                         >

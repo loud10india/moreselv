@@ -1471,7 +1471,7 @@ export const blogs13 = [
 export const blogs14 = [
     {
         id: 59,
-        imgSrc: "/assets/images/demo-fancy/AromaTherapy.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/1.jpg",
         imgAlt: "Add Image Description",
         title: "Traditional Thai Yoga Massage Therapy",
         text: "Experience this ancient therapy combining acupressure, gentle stretching, and yoga-inspired movements to release tension and improve flexibility. Perfect for rebalancing energy and restoring vitality",
@@ -1480,7 +1480,7 @@ export const blogs14 = [
     },
     {
         id: 60,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-2.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/2.jpg",
         imgAlt: "Add Image Description",
         title: "Shiatsu Massage Therapy",
         text: "A Japanese technique using finger pressure to target energy pathways, promoting relaxation and healing. Ideal for reducing stress and enhancing overall well-being.",
@@ -1489,7 +1489,7 @@ export const blogs14 = [
     },
     {
         id: 61,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-3.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/3.jpg",
         imgAlt: "Add Image Description",
         title: "Hot Stone Heated Signature",
         text: "Relax as warm, smooth stones are placed on your body to ease muscle tension and improve circulation. A deeply soothing therapy for stress relief.",
@@ -1498,7 +1498,7 @@ export const blogs14 = [
     },
     {
         id: 62,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-4.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/4.jpg",
         imgAlt: "Add Image Description",
         title: "Lymphatic Drainage – Anti-Water Retention",
         text: "Gentle and rhythmic, this massage helps eliminate toxins, reduce bloating, and combat water retention. Perfect for detoxifying and feeling lighter.",
@@ -1507,7 +1507,7 @@ export const blogs14 = [
     },
     {
         id: 63,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-5.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/5.jpg",
         imgAlt: "Add Image Description",
         title: "Aromatherapy",
         text: "Immerse yourself in a sensory experience with essential oils tailored to your mood. This massage promotes deep relaxation and emotional well-being.",
@@ -1516,7 +1516,7 @@ export const blogs14 = [
     },
     {
         id: 64,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-6.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/6.jpg",
         imgAlt: "Add Image Description",
         title: "Traditional Balinese",
         text: "A holistic therapy combining gentle stretches, acupressure, and aromatic oils to stimulate circulation. Perfect for relaxing muscles and calming the mind.",
@@ -1525,7 +1525,7 @@ export const blogs14 = [
     },
     {
         id: 65,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-7.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/7.jpg",
         imgAlt: "Add Image Description",
         title: "Classic Swedish",
         text: "A timeless favorite using long, flowing strokes to relieve muscle tension and boost circulation. Ideal for overall relaxation and rejuvenation.",
@@ -1534,7 +1534,7 @@ export const blogs14 = [
     },
     {
         id: 66,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-8.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/8.jpg",
         imgAlt: "Add Image Description",
         title: "Traditional Hawaiian Lomi Lomi",
         text: "A unique, flowing massage technique inspired by the rhythm of Hawaiian waves. Designed to harmonize mind, body, and spirit.",
@@ -1543,7 +1543,7 @@ export const blogs14 = [
     },
     {
         id: 67,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/9.jpg",
         imgAlt: "Add Image Description",
         title: "Foot Reflexology",
         text: "Focus on key pressure points in your feet to relieve tension and improve energy flow. A quick yet powerful way to feel refreshed.",
@@ -1552,7 +1552,7 @@ export const blogs14 = [
     },
     {
         id: 68,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/10.jpg",
         imgAlt: "Add Image Description",
         title: "Coconut Sugar Scrub",
         text: "A tropical treat that exfoliates and hydrates your skin using natural coconut and sugar crystals. Leaves your skin soft, smooth, and glowing.",
@@ -1561,7 +1561,7 @@ export const blogs14 = [
     },
     {
         id: 69,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/11.jpg",
         imgAlt: "Add Image Description",
         title: "Organic Rice Flour Scrub",
         text: "A gentle exfoliation treatment using finely ground rice flour to remove dead skin and restore a radiant glow. Perfect for sensitive skin.",
@@ -1570,7 +1570,7 @@ export const blogs14 = [
     },
     {
         id: 70,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/12.jpg",
         imgAlt: "Add Image Description",
         title: "Coffee Scrub",
         text: "Revitalize your skin with the invigorating power of coffee. This scrub exfoliates, improves circulation, and leaves your skin firm and refreshed.",
@@ -1579,7 +1579,7 @@ export const blogs14 = [
     },
     {
         id: 70,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/13.jpg",
         imgAlt: "Add Image Description",
         title: "Chocolate Scrub",
         text: "Indulge in a decadent treatment with antioxidant-rich chocolate. This scrub nourishes, softens, and leaves your skin with a healthy glow.",
@@ -1588,7 +1588,7 @@ export const blogs14 = [
     },
     {
         id: 71,
-        imgSrc: "/assets/images/demo-fancy/blog/post-prev-9.jpg",
+        imgSrc: "/assets/images/demo-fancy/blog/14.jpg",
         imgAlt: "Add Image Description",
         title: "Head Massage",
         text: "Relieve stress and tension with this relaxing therapy focused on your scalp and head. Improves circulation and promotes mental clarity.",

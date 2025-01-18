@@ -35,7 +35,10 @@ export default function StrongBlogSinglePage({ params }) {
                         <ParallaxContainer
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
-                                backgroundImage: "url(/assets/images/demo-strong/spa-unsplash-1.jpg)",
+                                backgroundImage: "url(/assets/images/demo-strong/mor-selv.jpg)",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
                             }}
                             id='home'
                         >
