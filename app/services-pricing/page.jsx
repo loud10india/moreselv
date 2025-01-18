@@ -7,6 +7,8 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { Alata } from "next/font/google";
+import { blogs14 } from "@/data/blogs";
+import Pagination from "@/components/common/Pagination";
 
 const ParallaxContainer = dynamic(() => import("@/components/common/ParallaxContainer"), {
     ssr: false, // Disable server-side rendering
@@ -55,17 +57,12 @@ export default function Services() {
                                         </h1>
                                     </div>
                                 </div>
-                                {/* End Home Section Content */}
                             </div>
                         </ParallaxContainer>
                         <>
-                            <section className='page-section' id='portfolio'>
+                            {/* <section className='page-section' id='portfolio'>
                                 <div className='container'>
                                     <div className='row mb-n40 wow fadeInUp' data-wow-offset={0}>
-                                        {/* Portfolio item */}
-
-                                        {/* End Portfolio item */}
-                                        {/* Portfolio item */}
                                         {portfolios10.map((item) => (
                                             <div className='col-md-6 mb-40' key={item.id}>
                                                 <div className='portfolio-4-item'>
@@ -75,21 +72,71 @@ export default function Services() {
                                                         </div>
                                                         <div className='portfolio-4-intro'>
                                                             <h4 className='portfolio-4-title'>{item.title}</h4>
-                                                            {/* <div className='portfolio-4-descr'>{item.description}</div> */}
                                                         </div>{" "}
                                                     </div>
                                                 </div>
                                             </div>
                                         ))}
-                                        {/* End Portfolio item */}
                                     </div>
                                 </div>
+                            </section> */}
+                            <section className='page-section' id='blog'>
+                                <div className='container'>
+                                    {/* Blog Posts Grid */}
+                                    <div className='row position-relative mt-n50 mb-50 wow fadeInUp' data-wow-offset={0}>
+                                        {/* Decorative Waves */}
+                                        <div
+                                            className='decoration-8 d-none d-sm-block opacity-05'
+                                            data-rellax-y=''
+                                            data-rellax-speed='-0.7'
+                                            data-rellax-percentage={0}
+                                        >
+                                            <Image src='/assets/images/demo-fancy/decoration-1.svg' alt='' width={159} height={74} />
+                                        </div>
+                                        {/* End Decorative Waves */}
+                                        {/* Post Item */}
+                                        {blogs14.map((elm, i) => (
+                                            <div key={i} className='post-prev col-md-6 col-lg-4 mt-50'>
+                                                <div className='post-prev-container'>
+                                                    <div className='post-prev-img'>
+                                                        <Link href={`/fancy-blog-single/${elm.id}`}>
+                                                            <Image src={elm.imgSrc} width={620} height={436} alt='Add Image Description' />
+                                                        </Link>
+                                                    </div>
+                                                    <h4 className='post-prev-title'>
+                                                        <Link href={`/fancy-blog-single/${elm.id}`}>{elm.title}</Link>
+                                                    </h4>
+                                                    <div>
+                                                        <div className='post-prev-text'>{elm.text}</div>
+                                                        <div className='post-prev-text'>
+                                                            <b>Recommended For : </b> {elm.recommendedfor}
+                                                        </div>
+                                                        <div className='post-prev-text' style={{ marginBottom: "20px" }}>
+                                                            <b>Pricing:</b> {elm.pricing}
+                                                        </div>
+                                                    </div>
+                                                    <div className='post-prev-info clearfix'>
+                                                        <div className='float-end'>
+                                                            <a href='/book-appointment' style={{ fontSize: "18px" }}>
+                                                                <b> Book Now</b>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))}
+                                        {/* End Post Item */}
+
+                                        {/* End Post Item */}
+                                    </div>
+                                    {/* End Blog Posts Grid */}
+                                    {/* Pagination */}
+                                    {/* <Pagination /> */}
+                                    {/* End Pagination */}
+                                </div>
                             </section>
-                            {/* End Portfolio Section */}
-                            {/* Divider */}
                             <hr className='mt-0 mb-0' />
-                            {/* End Divider */}
-                            {/* Section */}
+
                             <section className='page-section'>
                                 <div className='container'>
                                     <div className='row'>

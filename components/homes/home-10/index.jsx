@@ -134,12 +134,7 @@ export default function Home10({ onePage = false, dark = false }) {
                     </div>
                     <div className='col-lg-6 d-flex align-items-stretch order-lg-first'>
                         <div className='split-image-left'>
-                            <Image
-                                width={1100}
-                                height={930}
-                                src='/assets/images/demo-strong/MorSelv-Women-Spa-Gurugram.jpg'
-                                alt='Image Description'
-                            />
+                            <Image width={1100} height={930} src='/assets/images/demo-strong/Prioritize Your Wellness.jpg' alt='Image Description' />
                         </div>
                     </div>
                 </div>
@@ -167,17 +162,11 @@ export default function Home10({ onePage = false, dark = false }) {
             <section
                 className='page-section bg-dark-1 light-content'
                 style={{
-                    backgroundImage: "url(/assets/images/full-width-images/spa-unsplash-2.jpg)",
+                    backgroundImage: "url(/assets/images/full-width-images/mor-selv.jpg)",
                 }}
             >
                 <Newsletter />
             </section>
-            {/* <section className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
-                <Contact />
-            </section> */}
-            {/* <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
-                <Contact />
-            </section> */}
         </>
     );
 }
