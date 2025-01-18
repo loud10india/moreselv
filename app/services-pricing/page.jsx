@@ -38,7 +38,8 @@ export default function Services() {
                         <ParallaxContainer
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
-                                backgroundImage: "url(/assets/images/demo-strong/spa-unsplash-1.jpg)",
+                                backgroundImage: "url(/assets/images/demo-strong/mor-selv.jpg)",
+                                height: "90vh",
                             }}
                             id='home'
                         >
@@ -60,26 +61,6 @@ export default function Services() {
                             </div>
                         </ParallaxContainer>
                         <>
-                            {/* <section className='page-section' id='portfolio'>
-                                <div className='container'>
-                                    <div className='row mb-n40 wow fadeInUp' data-wow-offset={0}>
-                                        {portfolios10.map((item) => (
-                                            <div className='col-md-6 mb-40' key={item.id}>
-                                                <div className='portfolio-4-item'>
-                                                    <div>
-                                                        <div className='portfolio-4-image'>
-                                                            <Image src={item.imgSrc} width={902} height={564} alt={item.imgAlt} />
-                                                        </div>
-                                                        <div className='portfolio-4-intro'>
-                                                            <h4 className='portfolio-4-title'>{item.title}</h4>
-                                                        </div>{" "}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                            </section> */}
                             <section className='page-section' id='blog'>
                                 <div className='container'>
                                     {/* Blog Posts Grid */}
@@ -99,12 +80,12 @@ export default function Services() {
                                             <div key={i} className='post-prev col-md-6 col-lg-4 mt-50'>
                                                 <div className='post-prev-container'>
                                                     <div className='post-prev-img'>
-                                                        <Link href={`/fancy-blog-single/${elm.id}`}>
+                                                        <div>
                                                             <Image src={elm.imgSrc} width={620} height={436} alt='Add Image Description' />
-                                                        </Link>
+                                                        </div>
                                                     </div>
                                                     <h4 className='post-prev-title'>
-                                                        <Link href={`/fancy-blog-single/${elm.id}`}>{elm.title}</Link>
+                                                        <div>{elm.title}</div>
                                                     </h4>
                                                     <div>
                                                         <div className='post-prev-text'>{elm.text}</div>

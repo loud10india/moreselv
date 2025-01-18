@@ -38,10 +38,8 @@ export default function PrivacyAndPolicy() {
                         <ParallaxContainer
                             className='page-section bg-dark-alpha-30 light-content parallax-5'
                             style={{
-                                backgroundImage: "url(/assets/images/demo-strong/spa-unsplash-1.jpg)",
-                                backgroundSize: "cover",
-                                backgroundRepeat: "no-repeat",
-                                backgroundPosition: "center",
+                                backgroundImage: "url(/assets/images/demo-strong/mor-selv.jpg)",
+                                height: "90vh",
                             }}
                             id='home'
                         >
