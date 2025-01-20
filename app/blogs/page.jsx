@@ -70,13 +70,13 @@ export default function StrongBlogPage() {
                                         {blogs10.map((post) => (
                                             <div className='post-prev-2 col-md-6 col-lg-4 mt-50 mt-sm-30' key={post.id}>
                                                 <div className='post-prev-2-img'>
-                                                    <Link href={`/strong-blog-single/${post.id}`}>
+                                                    <Link href={`/blogs/${post.id}`}>
                                                         <Image src={post.imgSrc} width={700} height={479} alt={post.imgAlt} />
                                                     </Link>
                                                 </div>
                                                 <h3 className='post-prev-2-title'>
                                                     {" "}
-                                                    <Link href={`/strong-blog-single/${post.id}`}>{post.title}</Link>
+                                                    <Link href={`/blogs/${post.id}`}>{post.title}</Link>
                                                 </h3>
                                                 {/* <div className='post-prev-2-info'>{post.date}</div> */}
                                             </div>

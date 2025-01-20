@@ -299,7 +299,7 @@ export const blogs9 = [
 
 export const blogs10 = [
     {
-        id: 25,
+        id: "the-science-behind-relaxation",
         imgSrc: "/assets/images/demo-modern/Reflexology.jpg",
         imgAlt: "Image Description",
         title: "The Science Behind Relaxation: How Spa Treatments Improve Mind, Body, and Soul",
@@ -474,7 +474,7 @@ export const blogs10 = [
         ),
     },
     {
-        id: 26,
+        id: "ultimate-guide-to-spa-etiquette",
         imgSrc: "/assets/images/demo-modern/Skincare Treatments.jpg",
         imgAlt: "Image Description",
         title: "The Ultimate Guide to Spa Etiquette: Elevate Your Luxury Experience",
@@ -625,7 +625,7 @@ export const blogs10 = [
         ),
     },
     {
-        id: 27,
+        id: "seasonal-treatments-rejuvenate-your-skin-body",
         imgSrc: "/assets/images/demo-modern/Stone Therapy.jpg",
         imgAlt: "Image Description",
         title: "Seasonal Treatments: Rejuvenate Your Skin and Body Throughout the Year",
@@ -792,7 +792,7 @@ export const blogs10 = [
         ),
     },
     {
-        id: 28,
+        id: "wellness-therapies-for-women",
         imgSrc: "/assets/images/demo-modern/Stress Relief Packages.jpg",
         imgAlt: "Image Description",
         title: "The Power of Relaxation: How Wellness Therapies Enhance Productivity and Well-Being for Corporate Women",
@@ -941,7 +941,7 @@ export const blogs10 = [
         ),
     },
     {
-        id: 29,
+        id: "spa-therapies-for-women",
         imgSrc: "/assets/images/demo-modern/AromaTherapy.jpg",
         imgAlt: "Image Description",
         title: "Reclaiming Balance: Why Spa Therapies are Essential for the Health of Corporate Working Women",
@@ -1101,7 +1101,7 @@ export const blogs10 = [
         ),
     },
     {
-        id: 30,
+        id: "spa-treatments-for-confidence",
         imgSrc: "/assets/images/demo-modern/Relaxation Therapies.jpg",
         imgAlt: "Image Description",
         title: "Radiate Confidence: The Role of Spa Treatments in Boosting Professional Presence for Corporate Women",

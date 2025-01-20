@@ -67,7 +67,7 @@ export default function StrongBlogSinglePage({ params }) {
                                                         <Image src={blog.imgSrc} alt={blog.imgAlt} width={1200} height={819} />
                                                     </div>
                                                     {/* Display Content */}
-                                                    <p>{blog.content}</p>
+                                                    <div>{blog.content}</div>
                                                 </div>
                                             </div>
                                         </div>
