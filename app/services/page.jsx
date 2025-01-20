@@ -21,6 +21,10 @@ const alata = Alata({
     subsets: ["latin"],
     display: "swap",
 });
+const whatsappNumber = "9818257300";
+const baseURL = "https://api.whatsapp.com/send/";
+const encodedMessage = "Hey! I'm interested in booking an appointment. Please help me with my questions";
+const whatsappLink = `${baseURL}?phone=${whatsappNumber}&text=${encodedMessage}&type=phone_number&app_absent=0`;
 export const metadata = {
     title: "Wellness Services for Women: Relax, Rejuvenate & Glow",
     description:
@@ -74,7 +78,7 @@ export default function Services() {
                                             data-rellax-speed='-0.7'
                                             data-rellax-percentage={0}
                                         >
-                                            <Image src='/assets/images/demo-fancy/decoration-1.svg' alt='' width={159} height={74} />
+                                            {/* <Image src='/assets/images/demo-fancy/decoration-1.svg' alt='' width={159} height={74} /> */}
                                         </div>
                                         {/* End Decorative Waves */}
                                         {/* Post Item */}
@@ -100,7 +104,7 @@ export default function Services() {
                                                     </div>
                                                     <div className='post-prev-info clearfix'>
                                                         <div className='float-end'>
-                                                            <a href='/book-appointment' style={{ fontSize: "18px" }}>
+                                                            <a href={whatsappLink} target='_blank' style={{ fontSize: "18px" }}>
                                                                 <b> Book Now</b>
                                                             </a>
                                                         </div>

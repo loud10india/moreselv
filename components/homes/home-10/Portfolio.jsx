@@ -16,7 +16,7 @@ export default function Portfolio() {
         <div className='container'>
             <div className='row mb-90 mb-sm-50'>
                 <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center'>
-                    <h2 className='section-caption-border'>Our Services</h2>
+                    {/* <h2 className='section-caption-border'>Our Services</h2> */}
                     <div className={alata.className}>
                         <h3 className='section-title-strong mb-40' style={{ color: "#EBBA78", fontWeight: "500" }}>
                             A Personalized Approach to Wellness

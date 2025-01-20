@@ -7,7 +7,7 @@ import "./global.css";
 const WhatsappLive = () => {
     const whatsappNumber = "9818257300";
     const baseURL = "https://api.whatsapp.com/send/";
-    const encodedMessage = "Hey! I'm interested in knowing more about your services. Please help me with my questions";
+    const encodedMessage = "Hey! I'm interested in booking an appointment. Please help me with my questions";
     const whatsappLink = `${baseURL}?phone=${whatsappNumber}&text=${encodedMessage}&type=phone_number&app_absent=0`;
     useEffect(() => {
         const handleScroll = () => {
@@ -19,18 +19,6 @@ const WhatsappLive = () => {
             }
         };
         window.addEventListener("scroll", handleScroll);
-        // const checkScrollVisibility = () => {
-        //     const whatsappLinkElement = document.documentElement.scrollHeight;
-        //     const clientHeight = document.documentElement.clientHeight;
-
-        //     if (scrollHeight > clientHeight) {
-        //         handleScroll();
-        //         window.addEventListener("scroll", handleScroll);
-        //     } else {
-        //         whatsappLinkElement?.classList.add("visible");
-        //     }
-        //     checkScrollVisibility();
-        // };
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
